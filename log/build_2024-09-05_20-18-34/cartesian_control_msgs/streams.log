@@ -1,0 +1,146 @@
+[0.345s] Invoking command in '/home/beniamino/ros2_ws/build/cartesian_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/cartesian_control_msgs -- -j12 -l12
+[1.845s] [  3%] Built target cartesian_control_msgs__cpp
+[2.158s] [ 12%] Built target cartesian_control_msgs__rosidl_generator_c
+[2.292s] [ 22%] Built target cartesian_control_msgs__rosidl_typesupport_introspection_cpp
+[2.295s] [ 32%] Built target cartesian_control_msgs__rosidl_typesupport_cpp
+[2.302s] [ 41%] Built target cartesian_control_msgs__rosidl_typesupport_introspection_c
+[2.318s] [ 41%] Built target ament_cmake_python_copy_cartesian_control_msgs
+[2.321s] [ 51%] Built target cartesian_control_msgs__rosidl_typesupport_c
+[2.336s] [ 61%] Built target cartesian_control_msgs__rosidl_typesupport_fastrtps_cpp
+[2.340s] [ 70%] Built target cartesian_control_msgs__rosidl_typesupport_fastrtps_c
+[2.380s] [ 70%] Built target cartesian_control_msgs
+[2.419s] [ 74%] Built target cartesian_control_msgs__py
+[2.706s] [ 80%] Built target cartesian_control_msgs__rosidl_generator_py
+[2.759s] [ 87%] Built target cartesian_control_msgs__rosidl_typesupport_c__pyext
+[2.869s] [ 93%] Built target cartesian_control_msgs__rosidl_typesupport_introspection_c__pyext
+[2.887s] running egg_info
+[2.891s] [100%] Built target cartesian_control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.929s] writing cartesian_control_msgs.egg-info/PKG-INFO
+[2.931s] writing dependency_links to cartesian_control_msgs.egg-info/dependency_links.txt
+[2.931s] writing top-level names to cartesian_control_msgs.egg-info/top_level.txt
+[3.039s] reading manifest file 'cartesian_control_msgs.egg-info/SOURCES.txt'
+[3.040s] writing manifest file 'cartesian_control_msgs.egg-info/SOURCES.txt'
+[3.090s] [100%] Built target ament_cmake_python_build_cartesian_control_msgs_egg
+[3.111s] Invoked command in '/home/beniamino/ros2_ws/build/cartesian_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/cartesian_control_msgs -- -j12 -l12
+[3.235s] Invoking command in '/home/beniamino/ros2_ws/build/cartesian_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/cartesian_control_msgs
+[3.266s] -- Install configuration: ""
+[3.267s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/ament_index/resource_index/rosidl_interfaces/cartesian_control_msgs
+[3.267s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs
+[3.267s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action
+[3.267s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/follow_cartesian_trajectory.h
+[3.268s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail
+[3.268s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__type_support.h
+[3.268s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__functions.h
+[3.268s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__struct.h
+[3.268s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__functions.c
+[3.268s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg
+[3.269s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.269s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/library_path.sh
+[3.269s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/library_path.dsv
+[3.552s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_generator_c.so
+[3.553s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs
+[3.553s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action
+[3.554s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail
+[3.554s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__rosidl_typesupport_fastrtps_c.h
+[3.554s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg
+[3.554s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.675s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_typesupport_fastrtps_c.so
+[3.676s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs
+[3.677s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action
+[3.677s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail
+[3.677s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__builder.hpp
+[3.678s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__struct.hpp
+[3.679s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__traits.hpp
+[3.679s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/follow_cartesian_trajectory.hpp
+[3.680s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs
+[3.680s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action
+[3.680s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail
+[3.680s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/dds_fastrtps
+[3.681s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[3.681s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg
+[3.681s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.743s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.744s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs
+[3.744s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action
+[3.744s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail
+[3.744s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__type_support.c
+[3.744s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__rosidl_typesupport_introspection_c.h
+[3.745s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg
+[3.745s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.981s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_typesupport_introspection_c.so
+[4.183s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_typesupport_c.so
+[4.184s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs
+[4.184s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action
+[4.184s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail
+[4.184s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[4.184s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__type_support.cpp
+[4.316s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_typesupport_introspection_cpp.so
+[4.316s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_typesupport_cpp.so
+[4.316s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/pythonpath.sh
+[4.317s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/pythonpath.dsv
+[4.317s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs-0.0.1-py3.10.egg-info
+[4.317s] -- Installing: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+[4.318s] -- Installing: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+[4.318s] -- Installing: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs-0.0.1-py3.10.egg-info/top_level.txt
+[4.318s] -- Installing: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+[4.318s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs
+[4.318s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/_cartesian_control_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.319s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/_cartesian_control_msgs_s.ep.rosidl_typesupport_c.c
+[4.319s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/libcartesian_control_msgs__rosidl_generator_py.so
+[4.319s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/action
+[4.319s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/action/_follow_cartesian_trajectory.py
+[4.319s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/action/__init__.py
+[4.320s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/action/_follow_cartesian_trajectory_s.c
+[4.320s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/cartesian_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.320s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/cartesian_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.320s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/__init__.py
+[4.320s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/cartesian_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.321s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/_cartesian_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.975s] Listing '/home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs'...
+[4.975s] Listing '/home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/action'...
+[5.318s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/cartesian_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.645s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/cartesian_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.816s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/cartesian_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.821s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_generator_py.so
+[5.821s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/action/FollowCartesianTrajectory.idl
+[5.822s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/action/FollowCartesianTrajectory.action
+[5.822s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/ament_index/resource_index/package_run_dependencies/cartesian_control_msgs
+[5.822s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/ament_index/resource_index/parent_prefix_path/cartesian_control_msgs
+[5.823s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/ament_prefix_path.sh
+[5.823s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/ament_prefix_path.dsv
+[5.823s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/path.sh
+[5.823s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/path.dsv
+[5.823s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/local_setup.bash
+[5.824s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/local_setup.sh
+[5.824s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/local_setup.zsh
+[5.824s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/local_setup.dsv
+[5.824s] -- Installing: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/package.dsv
+[5.837s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/ament_index/resource_index/packages/cartesian_control_msgs
+[5.839s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_generator_cExport.cmake
+[5.839s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.840s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.840s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.107s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_generator_cppExport.cmake
+[6.231s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.231s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.429s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.430s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.478s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_cExport.cmake
+[6.478s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.485s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.485s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.490s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_cppExport.cmake
+[6.491s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.647s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_generator_pyExport.cmake
+[6.648s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.648s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/rosidl_cmake-extras.cmake
+[6.649s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.649s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.649s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.649s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.649s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.650s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.650s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgsConfig.cmake
+[6.650s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgsConfig-version.cmake
+[6.650s] -- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/package.xml
+[6.669s] Invoked command in '/home/beniamino/ros2_ws/build/cartesian_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/cartesian_control_msgs

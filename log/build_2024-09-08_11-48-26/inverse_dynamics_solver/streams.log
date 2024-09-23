@@ -1,0 +1,24 @@
+[0.052s] Invoking command in '/home/beniamino/ros2_ws/build/inverse_dynamics_solver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/inverse_dynamics_solver -- -j12 -l12
+[0.795s] Invoked command in '/home/beniamino/ros2_ws/build/inverse_dynamics_solver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/inverse_dynamics_solver -- -j12 -l12
+[0.854s] Invoking command in '/home/beniamino/ros2_ws/build/inverse_dynamics_solver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/inverse_dynamics_solver
+[0.879s] -- Install configuration: ""
+[0.879s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/include
+[0.879s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/include/inverse_dynamics_solver
+[0.879s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/include/inverse_dynamics_solver/inverse_dynamics_solver.h
+[0.879s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/ament_index/resource_index/package_run_dependencies/inverse_dynamics_solver
+[0.880s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/ament_index/resource_index/parent_prefix_path/inverse_dynamics_solver
+[0.880s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/environment/ament_prefix_path.sh
+[0.880s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/environment/ament_prefix_path.dsv
+[0.881s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/environment/path.sh
+[0.881s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/environment/path.dsv
+[0.881s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/local_setup.bash
+[0.881s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/local_setup.sh
+[0.882s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/local_setup.zsh
+[0.882s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/local_setup.dsv
+[0.883s] -- Installing: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/package.dsv
+[0.883s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/ament_index/resource_index/packages/inverse_dynamics_solver
+[0.884s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.884s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/cmake/inverse_dynamics_solverConfig.cmake
+[0.884s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/cmake/inverse_dynamics_solverConfig-version.cmake
+[0.884s] -- Up-to-date: /home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/package.xml
+[0.897s] Invoked command in '/home/beniamino/ros2_ws/build/inverse_dynamics_solver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/inverse_dynamics_solver

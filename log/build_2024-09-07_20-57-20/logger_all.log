@@ -1,0 +1,859 @@
+[0.861s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-up-to', 'panda_impedance_controller']
+[0.861s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['panda_impedance_controller'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x702cf826fb50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x702cf826f610>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x702cf826f610>>, mixin_verb=('build',))
+[0.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.926s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/beniamino/ros2_ws'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_08_29_11_23_11.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_08_29_11_23_11.bag) by extension 'ignore'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_08_29_11_23_11.bag) by extension 'ignore_ament_install'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_08_29_11_23_11.bag) by extensions ['colcon_pkg']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_08_29_11_23_11.bag) by extension 'colcon_pkg'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_08_29_11_23_11.bag) by extensions ['colcon_meta']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_08_29_11_23_11.bag) by extension 'colcon_meta'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_08_29_11_23_11.bag) by extensions ['ros']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_08_29_11_23_11.bag) by extension 'ros'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_08_29_11_23_11.bag) by extensions ['cmake', 'python']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_08_29_11_23_11.bag) by extension 'cmake'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_08_29_11_23_11.bag) by extension 'python'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_08_29_11_23_11.bag) by extensions ['python_setup_py']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_08_29_11_23_11.bag) by extension 'python_setup_py'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_54_18.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_54_18.bag) by extension 'ignore'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_54_18.bag) by extension 'ignore_ament_install'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_54_18.bag) by extensions ['colcon_pkg']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_54_18.bag) by extension 'colcon_pkg'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_54_18.bag) by extensions ['colcon_meta']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_54_18.bag) by extension 'colcon_meta'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_54_18.bag) by extensions ['ros']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_54_18.bag) by extension 'ros'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_54_18.bag) by extensions ['cmake', 'python']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_54_18.bag) by extension 'cmake'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_54_18.bag) by extension 'python'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_54_18.bag) by extensions ['python_setup_py']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_54_18.bag) by extension 'python_setup_py'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_57_06.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_57_06.bag) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_57_06.bag) by extension 'ignore_ament_install'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_57_06.bag) by extensions ['colcon_pkg']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_57_06.bag) by extension 'colcon_pkg'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_57_06.bag) by extensions ['colcon_meta']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_57_06.bag) by extension 'colcon_meta'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_57_06.bag) by extensions ['ros']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_57_06.bag) by extension 'ros'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_57_06.bag) by extensions ['cmake', 'python']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_57_06.bag) by extension 'cmake'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_57_06.bag) by extension 'python'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_57_06.bag) by extensions ['python_setup_py']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_18_57_06.bag) by extension 'python_setup_py'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_03_54.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_03_54.bag) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_03_54.bag) by extension 'ignore_ament_install'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_03_54.bag) by extensions ['colcon_pkg']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_03_54.bag) by extension 'colcon_pkg'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_03_54.bag) by extensions ['colcon_meta']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_03_54.bag) by extension 'colcon_meta'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_03_54.bag) by extensions ['ros']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_03_54.bag) by extension 'ros'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_03_54.bag) by extensions ['cmake', 'python']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_03_54.bag) by extension 'cmake'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_03_54.bag) by extension 'python'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_03_54.bag) by extensions ['python_setup_py']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_03_54.bag) by extension 'python_setup_py'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_07.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_07.bag) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_07.bag) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_07.bag) by extensions ['colcon_pkg']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_07.bag) by extension 'colcon_pkg'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_07.bag) by extensions ['colcon_meta']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_07.bag) by extension 'colcon_meta'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_07.bag) by extensions ['ros']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_07.bag) by extension 'ros'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_07.bag) by extensions ['cmake', 'python']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_07.bag) by extension 'cmake'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_07.bag) by extension 'python'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_07.bag) by extensions ['python_setup_py']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_07.bag) by extension 'python_setup_py'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_51.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_51.bag) by extension 'ignore'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_51.bag) by extension 'ignore_ament_install'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_51.bag) by extensions ['colcon_pkg']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_51.bag) by extension 'colcon_pkg'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_51.bag) by extensions ['colcon_meta']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_51.bag) by extension 'colcon_meta'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_51.bag) by extensions ['ros']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_51.bag) by extension 'ros'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_51.bag) by extensions ['cmake', 'python']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_51.bag) by extension 'cmake'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_51.bag) by extension 'python'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_51.bag) by extensions ['python_setup_py']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_04_51.bag) by extension 'python_setup_py'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_18.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_18.bag) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_18.bag) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_18.bag) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_18.bag) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_18.bag) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_18.bag) by extension 'colcon_meta'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_18.bag) by extensions ['ros']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_18.bag) by extension 'ros'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_18.bag) by extensions ['cmake', 'python']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_18.bag) by extension 'cmake'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_18.bag) by extension 'python'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_18.bag) by extensions ['python_setup_py']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_18.bag) by extension 'python_setup_py'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_26.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_26.bag) by extension 'ignore'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_26.bag) by extension 'ignore_ament_install'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_26.bag) by extensions ['colcon_pkg']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_26.bag) by extension 'colcon_pkg'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_26.bag) by extensions ['colcon_meta']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_26.bag) by extension 'colcon_meta'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_26.bag) by extensions ['ros']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_26.bag) by extension 'ros'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_26.bag) by extensions ['cmake', 'python']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_26.bag) by extension 'cmake'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_26.bag) by extension 'python'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_26.bag) by extensions ['python_setup_py']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_19_07_26.bag) by extension 'python_setup_py'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_20_44_53.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_20_44_53.bag) by extension 'ignore'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_20_44_53.bag) by extension 'ignore_ament_install'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_20_44_53.bag) by extensions ['colcon_pkg']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_20_44_53.bag) by extension 'colcon_pkg'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_20_44_53.bag) by extensions ['colcon_meta']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_20_44_53.bag) by extension 'colcon_meta'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_20_44_53.bag) by extensions ['ros']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_20_44_53.bag) by extension 'ros'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_20_44_53.bag) by extensions ['cmake', 'python']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_20_44_53.bag) by extension 'cmake'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_20_44_53.bag) by extension 'python'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_20_44_53.bag) by extensions ['python_setup_py']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(executed_line_trajectory_2024_09_07_20_44_53.bag) by extension 'python_setup_py'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_08_29_11_23_11.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_08_29_11_23_11.bag) by extension 'ignore'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_08_29_11_23_11.bag) by extension 'ignore_ament_install'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_08_29_11_23_11.bag) by extensions ['colcon_pkg']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_08_29_11_23_11.bag) by extension 'colcon_pkg'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_08_29_11_23_11.bag) by extensions ['colcon_meta']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_08_29_11_23_11.bag) by extension 'colcon_meta'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_08_29_11_23_11.bag) by extensions ['ros']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_08_29_11_23_11.bag) by extension 'ros'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_08_29_11_23_11.bag) by extensions ['cmake', 'python']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_08_29_11_23_11.bag) by extension 'cmake'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_08_29_11_23_11.bag) by extension 'python'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_08_29_11_23_11.bag) by extensions ['python_setup_py']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_08_29_11_23_11.bag) by extension 'python_setup_py'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_54_18.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_54_18.bag) by extension 'ignore'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_54_18.bag) by extension 'ignore_ament_install'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_54_18.bag) by extensions ['colcon_pkg']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_54_18.bag) by extension 'colcon_pkg'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_54_18.bag) by extensions ['colcon_meta']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_54_18.bag) by extension 'colcon_meta'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_54_18.bag) by extensions ['ros']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_54_18.bag) by extension 'ros'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_54_18.bag) by extensions ['cmake', 'python']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_54_18.bag) by extension 'cmake'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_54_18.bag) by extension 'python'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_54_18.bag) by extensions ['python_setup_py']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_54_18.bag) by extension 'python_setup_py'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_57_06.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_57_06.bag) by extension 'ignore'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_57_06.bag) by extension 'ignore_ament_install'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_57_06.bag) by extensions ['colcon_pkg']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_57_06.bag) by extension 'colcon_pkg'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_57_06.bag) by extensions ['colcon_meta']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_57_06.bag) by extension 'colcon_meta'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_57_06.bag) by extensions ['ros']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_57_06.bag) by extension 'ros'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_57_06.bag) by extensions ['cmake', 'python']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_57_06.bag) by extension 'cmake'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_57_06.bag) by extension 'python'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_57_06.bag) by extensions ['python_setup_py']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_18_57_06.bag) by extension 'python_setup_py'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_03_54.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_03_54.bag) by extension 'ignore'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_03_54.bag) by extension 'ignore_ament_install'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_03_54.bag) by extensions ['colcon_pkg']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_03_54.bag) by extension 'colcon_pkg'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_03_54.bag) by extensions ['colcon_meta']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_03_54.bag) by extension 'colcon_meta'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_03_54.bag) by extensions ['ros']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_03_54.bag) by extension 'ros'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_03_54.bag) by extensions ['cmake', 'python']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_03_54.bag) by extension 'cmake'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_03_54.bag) by extension 'python'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_03_54.bag) by extensions ['python_setup_py']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_03_54.bag) by extension 'python_setup_py'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_07.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_07.bag) by extension 'ignore'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_07.bag) by extension 'ignore_ament_install'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_07.bag) by extensions ['colcon_pkg']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_07.bag) by extension 'colcon_pkg'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_07.bag) by extensions ['colcon_meta']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_07.bag) by extension 'colcon_meta'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_07.bag) by extensions ['ros']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_07.bag) by extension 'ros'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_07.bag) by extensions ['cmake', 'python']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_07.bag) by extension 'cmake'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_07.bag) by extension 'python'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_07.bag) by extensions ['python_setup_py']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_07.bag) by extension 'python_setup_py'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_52.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_52.bag) by extension 'ignore'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_52.bag) by extension 'ignore_ament_install'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_52.bag) by extensions ['colcon_pkg']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_52.bag) by extension 'colcon_pkg'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_52.bag) by extensions ['colcon_meta']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_52.bag) by extension 'colcon_meta'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_52.bag) by extensions ['ros']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_52.bag) by extension 'ros'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_52.bag) by extensions ['cmake', 'python']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_52.bag) by extension 'cmake'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_52.bag) by extension 'python'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_52.bag) by extensions ['python_setup_py']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_04_52.bag) by extension 'python_setup_py'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_18.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_18.bag) by extension 'ignore'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_18.bag) by extension 'ignore_ament_install'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_18.bag) by extensions ['colcon_pkg']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_18.bag) by extension 'colcon_pkg'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_18.bag) by extensions ['colcon_meta']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_18.bag) by extension 'colcon_meta'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_18.bag) by extensions ['ros']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_18.bag) by extension 'ros'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_18.bag) by extensions ['cmake', 'python']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_18.bag) by extension 'cmake'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_18.bag) by extension 'python'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_18.bag) by extensions ['python_setup_py']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_18.bag) by extension 'python_setup_py'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_26.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_26.bag) by extension 'ignore'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_26.bag) by extension 'ignore_ament_install'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_26.bag) by extensions ['colcon_pkg']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_26.bag) by extension 'colcon_pkg'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_26.bag) by extensions ['colcon_meta']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_26.bag) by extension 'colcon_meta'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_26.bag) by extensions ['ros']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_26.bag) by extension 'ros'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_26.bag) by extensions ['cmake', 'python']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_26.bag) by extension 'cmake'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_26.bag) by extension 'python'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_26.bag) by extensions ['python_setup_py']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_19_07_26.bag) by extension 'python_setup_py'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_20_44_53.bag) by extensions ['ignore', 'ignore_ament_install']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_20_44_53.bag) by extension 'ignore'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_20_44_53.bag) by extension 'ignore_ament_install'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_20_44_53.bag) by extensions ['colcon_pkg']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_20_44_53.bag) by extension 'colcon_pkg'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_20_44_53.bag) by extensions ['colcon_meta']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_20_44_53.bag) by extension 'colcon_meta'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_20_44_53.bag) by extensions ['ros']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_20_44_53.bag) by extension 'ros'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_20_44_53.bag) by extensions ['cmake', 'python']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_20_44_53.bag) by extension 'cmake'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_20_44_53.bag) by extension 'python'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_20_44_53.bag) by extensions ['python_setup_py']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(planned_line_trajectory_2024_09_07_20_44_53.bag) by extension 'python_setup_py'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller) by extension 'ignore'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller) by extension 'ignore_ament_install'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller) by extensions ['colcon_pkg']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller) by extension 'colcon_pkg'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller) by extensions ['colcon_meta']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller) by extension 'colcon_meta'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller) by extensions ['ros']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller) by extension 'ros'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller) by extensions ['cmake', 'python']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller) by extension 'cmake'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller) by extension 'python'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller) by extensions ['python_setup_py']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller) by extension 'python_setup_py'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_description) by extensions ['ignore', 'ignore_ament_install']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_description) by extension 'ignore'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_description) by extension 'ignore_ament_install'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_description) by extensions ['colcon_pkg']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_description) by extension 'colcon_pkg'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_description) by extensions ['colcon_meta']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_description) by extension 'colcon_meta'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_description) by extensions ['ros']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_description) by extension 'ros'
+[0.983s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_impedance_controller/acg_resources_panda_description' with type 'ros.ament_cmake' and name 'acg_resources_panda_description'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_moveit_config) by extension 'ignore'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_moveit_config) by extension 'ignore_ament_install'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_moveit_config) by extensions ['colcon_pkg']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_moveit_config) by extension 'colcon_pkg'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_moveit_config) by extensions ['colcon_meta']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_moveit_config) by extension 'colcon_meta'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_moveit_config) by extensions ['ros']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_moveit_config) by extension 'ros'
+[0.985s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_impedance_controller/acg_resources_panda_moveit_config' with type 'ros.ament_cmake' and name 'acg_resources_panda_moveit_config'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_analyzer) by extensions ['ignore', 'ignore_ament_install']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_analyzer) by extension 'ignore'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_analyzer) by extension 'ignore_ament_install'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_analyzer) by extensions ['colcon_pkg']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_analyzer) by extension 'colcon_pkg'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_analyzer) by extensions ['colcon_meta']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_analyzer) by extension 'colcon_meta'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_analyzer) by extensions ['ros']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_analyzer) by extension 'ros'
+[0.987s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_impedance_controller/acg_resources_panda_trajectory_analyzer' with type 'ros.ament_python' and name 'acg_resources_panda_trajectory_analyzer'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_generation) by extensions ['ignore', 'ignore_ament_install']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_generation) by extension 'ignore'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_generation) by extension 'ignore_ament_install'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_generation) by extensions ['colcon_pkg']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_generation) by extension 'colcon_pkg'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_generation) by extensions ['colcon_meta']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_generation) by extension 'colcon_meta'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_generation) by extensions ['ros']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/acg_resources_panda_trajectory_generation) by extension 'ros'
+[0.990s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_impedance_controller/acg_resources_panda_trajectory_generation' with type 'ros.ament_python' and name 'acg_resources_panda_trajectory_generation'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/cartesian_control_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/cartesian_control_msgs) by extension 'ignore'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/cartesian_control_msgs) by extension 'ignore_ament_install'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/cartesian_control_msgs) by extensions ['colcon_pkg']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/cartesian_control_msgs) by extension 'colcon_pkg'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/cartesian_control_msgs) by extensions ['colcon_meta']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/cartesian_control_msgs) by extension 'colcon_meta'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/cartesian_control_msgs) by extensions ['ros']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/cartesian_control_msgs) by extension 'ros'
+[0.992s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_impedance_controller/cartesian_control_msgs' with type 'ros.ament_cmake' and name 'cartesian_control_msgs'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/inverse_dynamics_solver) by extensions ['ignore', 'ignore_ament_install']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/inverse_dynamics_solver) by extension 'ignore'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/inverse_dynamics_solver) by extension 'ignore_ament_install'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/inverse_dynamics_solver) by extensions ['colcon_pkg']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/inverse_dynamics_solver) by extension 'colcon_pkg'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/inverse_dynamics_solver) by extensions ['colcon_meta']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/inverse_dynamics_solver) by extension 'colcon_meta'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/inverse_dynamics_solver) by extensions ['ros']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/inverse_dynamics_solver) by extension 'ros'
+[0.994s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_impedance_controller/inverse_dynamics_solver' with type 'ros.ament_cmake' and name 'inverse_dynamics_solver'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/kdl_inverse_dynamics_solver) by extensions ['ignore', 'ignore_ament_install']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/kdl_inverse_dynamics_solver) by extension 'ignore'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/kdl_inverse_dynamics_solver) by extension 'ignore_ament_install'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/kdl_inverse_dynamics_solver) by extensions ['colcon_pkg']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/kdl_inverse_dynamics_solver) by extension 'colcon_pkg'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/kdl_inverse_dynamics_solver) by extensions ['colcon_meta']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/kdl_inverse_dynamics_solver) by extension 'colcon_meta'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/kdl_inverse_dynamics_solver) by extensions ['ros']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/kdl_inverse_dynamics_solver) by extension 'ros'
+[0.996s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_impedance_controller/kdl_inverse_dynamics_solver' with type 'ros.ament_cmake' and name 'kdl_inverse_dynamics_solver'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_impedance_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_impedance_controller) by extension 'ignore'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_impedance_controller) by extension 'ignore_ament_install'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_impedance_controller) by extensions ['colcon_pkg']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_impedance_controller) by extension 'colcon_pkg'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_impedance_controller) by extensions ['colcon_meta']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_impedance_controller) by extension 'colcon_meta'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_impedance_controller) by extensions ['ros']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_impedance_controller) by extension 'ros'
+[0.998s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_impedance_controller/panda_impedance_controller' with type 'ros.ament_cmake' and name 'panda_impedance_controller'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_moveit_planning_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_moveit_planning_demo) by extension 'ignore'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_moveit_planning_demo) by extension 'ignore_ament_install'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_moveit_planning_demo) by extensions ['colcon_pkg']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_moveit_planning_demo) by extension 'colcon_pkg'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_moveit_planning_demo) by extensions ['colcon_meta']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_moveit_planning_demo) by extension 'colcon_meta'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_moveit_planning_demo) by extensions ['ros']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/panda_moveit_planning_demo) by extension 'ros'
+[1.002s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_impedance_controller/panda_moveit_planning_demo' with type 'ros.ament_cmake' and name 'panda_moveit_planning_demo'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/ros_extensions_utilities) by extensions ['ignore', 'ignore_ament_install']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/ros_extensions_utilities) by extension 'ignore'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/ros_extensions_utilities) by extension 'ignore_ament_install'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/ros_extensions_utilities) by extensions ['colcon_pkg']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/ros_extensions_utilities) by extension 'colcon_pkg'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/ros_extensions_utilities) by extensions ['colcon_meta']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/ros_extensions_utilities) by extension 'colcon_meta'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/ros_extensions_utilities) by extensions ['ros']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/ros_extensions_utilities) by extension 'ros'
+[1.004s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_impedance_controller/ros_extensions_utilities' with type 'ros.ament_cmake' and name 'ros_extensions_utilities'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories) by extensions ['ignore', 'ignore_ament_install']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories) by extension 'ignore'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories) by extension 'ignore_ament_install'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories) by extensions ['colcon_pkg']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories) by extension 'colcon_pkg'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories) by extensions ['colcon_meta']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories) by extension 'colcon_meta'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories) by extensions ['ros']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories) by extension 'ros'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories) by extensions ['cmake', 'python']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories) by extension 'cmake'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories) by extension 'python'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories) by extensions ['python_setup_py']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories) by extension 'python_setup_py'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.1.bag) by extensions ['ignore', 'ignore_ament_install']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.1.bag) by extension 'ignore'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.1.bag) by extension 'ignore_ament_install'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.1.bag) by extensions ['colcon_pkg']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.1.bag) by extension 'colcon_pkg'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.1.bag) by extensions ['colcon_meta']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.1.bag) by extension 'colcon_meta'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.1.bag) by extensions ['ros']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.1.bag) by extension 'ros'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.1.bag) by extensions ['cmake', 'python']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.1.bag) by extension 'cmake'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.1.bag) by extension 'python'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.1.bag) by extensions ['python_setup_py']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.1.bag) by extension 'python_setup_py'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.2.bag) by extensions ['ignore', 'ignore_ament_install']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.2.bag) by extension 'ignore'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.2.bag) by extension 'ignore_ament_install'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.2.bag) by extensions ['colcon_pkg']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.2.bag) by extension 'colcon_pkg'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.2.bag) by extensions ['colcon_meta']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.2.bag) by extension 'colcon_meta'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.2.bag) by extensions ['ros']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.2.bag) by extension 'ros'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.2.bag) by extensions ['cmake', 'python']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.2.bag) by extension 'cmake'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.2.bag) by extension 'python'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.2.bag) by extensions ['python_setup_py']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.2.bag) by extension 'python_setup_py'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.3.bag) by extensions ['ignore', 'ignore_ament_install']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.3.bag) by extension 'ignore'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.3.bag) by extension 'ignore_ament_install'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.3.bag) by extensions ['colcon_pkg']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.3.bag) by extension 'colcon_pkg'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.3.bag) by extensions ['colcon_meta']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.3.bag) by extension 'colcon_meta'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.3.bag) by extensions ['ros']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.3.bag) by extension 'ros'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.3.bag) by extensions ['cmake', 'python']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.3.bag) by extension 'cmake'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.3.bag) by extension 'python'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.3.bag) by extensions ['python_setup_py']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.3.bag) by extension 'python_setup_py'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.4.bag) by extensions ['ignore', 'ignore_ament_install']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.4.bag) by extension 'ignore'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.4.bag) by extension 'ignore_ament_install'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.4.bag) by extensions ['colcon_pkg']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.4.bag) by extension 'colcon_pkg'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.4.bag) by extensions ['colcon_meta']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.4.bag) by extension 'colcon_meta'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.4.bag) by extensions ['ros']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.4.bag) by extension 'ros'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.4.bag) by extensions ['cmake', 'python']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.4.bag) by extension 'cmake'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.4.bag) by extension 'python'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.4.bag) by extensions ['python_setup_py']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.4.bag) by extension 'python_setup_py'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.5.bag) by extensions ['ignore', 'ignore_ament_install']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.5.bag) by extension 'ignore'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.5.bag) by extension 'ignore_ament_install'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.5.bag) by extensions ['colcon_pkg']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.5.bag) by extension 'colcon_pkg'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.5.bag) by extensions ['colcon_meta']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.5.bag) by extension 'colcon_meta'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.5.bag) by extensions ['ros']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.5.bag) by extension 'ros'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.5.bag) by extensions ['cmake', 'python']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.5.bag) by extension 'cmake'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.5.bag) by extension 'python'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.5.bag) by extensions ['python_setup_py']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.5.bag) by extension 'python_setup_py'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.6.bag) by extensions ['ignore', 'ignore_ament_install']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.6.bag) by extension 'ignore'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.6.bag) by extension 'ignore_ament_install'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.6.bag) by extensions ['colcon_pkg']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.6.bag) by extension 'colcon_pkg'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.6.bag) by extensions ['colcon_meta']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.6.bag) by extension 'colcon_meta'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.6.bag) by extensions ['ros']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.6.bag) by extension 'ros'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.6.bag) by extensions ['cmake', 'python']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.6.bag) by extension 'cmake'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.6.bag) by extension 'python'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.6.bag) by extensions ['python_setup_py']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.6.bag) by extension 'python_setup_py'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.7.bag) by extensions ['ignore', 'ignore_ament_install']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.7.bag) by extension 'ignore'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.7.bag) by extension 'ignore_ament_install'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.7.bag) by extensions ['colcon_pkg']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.7.bag) by extension 'colcon_pkg'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.7.bag) by extensions ['colcon_meta']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.7.bag) by extension 'colcon_meta'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.7.bag) by extensions ['ros']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.7.bag) by extension 'ros'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.7.bag) by extensions ['cmake', 'python']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.7.bag) by extension 'cmake'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.7.bag) by extension 'python'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.7.bag) by extensions ['python_setup_py']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_impedance_controller/trajectories/line_trajectory_0.7.bag) by extension 'python_setup_py'
+[1.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.050s] INFO:colcon.colcon_core.package_selection:Skipping package 'panda_moveit_planning_demo' in 'src/panda_impedance_controller/panda_moveit_planning_demo'
+[1.050s] INFO:colcon.colcon_core.package_selection:Skipping package 'acg_resources_panda_moveit_config' in 'src/panda_impedance_controller/acg_resources_panda_moveit_config'
+[1.050s] INFO:colcon.colcon_core.package_selection:Skipping package 'acg_resources_panda_trajectory_generation' in 'src/panda_impedance_controller/acg_resources_panda_trajectory_generation'
+[1.050s] INFO:colcon.colcon_core.package_selection:Skipping package 'acg_resources_panda_trajectory_analyzer' in 'src/panda_impedance_controller/acg_resources_panda_trajectory_analyzer'
+[1.050s] INFO:colcon.colcon_core.package_selection:Skipping package 'acg_resources_panda_description' in 'src/panda_impedance_controller/acg_resources_panda_description'
+[1.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.055s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/beniamino/ros2_ws/install
+[1.057s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 379 installed packages in /opt/ros/humble
+[1.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.156s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'cartesian_control_msgs' is in: /home/beniamino/ros2_ws/install/cartesian_control_msgs
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding cartesian_control_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'cartesian_control_msgs' build argument 'cmake_args' from command line to 'None'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'cartesian_control_msgs' build argument 'cmake_target' from command line to 'None'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'cartesian_control_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'cartesian_control_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'cartesian_control_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'cartesian_control_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'cartesian_control_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'cartesian_control_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.158s] Level 5:colcon.colcon_core.verb:set package 'cartesian_control_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.158s] DEBUG:colcon.colcon_core.verb:Building package 'cartesian_control_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/beniamino/ros2_ws/build/cartesian_control_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/beniamino/ros2_ws/install/cartesian_control_msgs', 'merge_install': False, 'path': '/home/beniamino/ros2_ws/src/panda_impedance_controller/cartesian_control_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'inverse_dynamics_solver' build argument 'cmake_args' from command line to 'None'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'inverse_dynamics_solver' build argument 'cmake_target' from command line to 'None'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'inverse_dynamics_solver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'inverse_dynamics_solver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'inverse_dynamics_solver' build argument 'cmake_clean_first' from command line to 'False'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'inverse_dynamics_solver' build argument 'cmake_force_configure' from command line to 'False'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'inverse_dynamics_solver' build argument 'ament_cmake_args' from command line to 'None'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'inverse_dynamics_solver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'inverse_dynamics_solver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.159s] DEBUG:colcon.colcon_core.verb:Building package 'inverse_dynamics_solver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/beniamino/ros2_ws/build/inverse_dynamics_solver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/beniamino/ros2_ws/install/inverse_dynamics_solver', 'merge_install': False, 'path': '/home/beniamino/ros2_ws/src/panda_impedance_controller/inverse_dynamics_solver', 'symlink_install': False, 'test_result_base': None}
+[1.160s] Level 5:colcon.colcon_core.verb:set package 'ros_extensions_utilities' build argument 'cmake_args' from command line to 'None'
+[1.160s] Level 5:colcon.colcon_core.verb:set package 'ros_extensions_utilities' build argument 'cmake_target' from command line to 'None'
+[1.160s] Level 5:colcon.colcon_core.verb:set package 'ros_extensions_utilities' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.160s] Level 5:colcon.colcon_core.verb:set package 'ros_extensions_utilities' build argument 'cmake_clean_cache' from command line to 'False'
+[1.160s] Level 5:colcon.colcon_core.verb:set package 'ros_extensions_utilities' build argument 'cmake_clean_first' from command line to 'False'
+[1.160s] Level 5:colcon.colcon_core.verb:set package 'ros_extensions_utilities' build argument 'cmake_force_configure' from command line to 'False'
+[1.160s] Level 5:colcon.colcon_core.verb:set package 'ros_extensions_utilities' build argument 'ament_cmake_args' from command line to 'None'
+[1.160s] Level 5:colcon.colcon_core.verb:set package 'ros_extensions_utilities' build argument 'catkin_cmake_args' from command line to 'None'
+[1.160s] Level 5:colcon.colcon_core.verb:set package 'ros_extensions_utilities' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.160s] DEBUG:colcon.colcon_core.verb:Building package 'ros_extensions_utilities' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/beniamino/ros2_ws/build/ros_extensions_utilities', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/beniamino/ros2_ws/install/ros_extensions_utilities', 'merge_install': False, 'path': '/home/beniamino/ros2_ws/src/panda_impedance_controller/ros_extensions_utilities', 'symlink_install': False, 'test_result_base': None}
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'kdl_inverse_dynamics_solver' build argument 'cmake_args' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'kdl_inverse_dynamics_solver' build argument 'cmake_target' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'kdl_inverse_dynamics_solver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'kdl_inverse_dynamics_solver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'kdl_inverse_dynamics_solver' build argument 'cmake_clean_first' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'kdl_inverse_dynamics_solver' build argument 'cmake_force_configure' from command line to 'False'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'kdl_inverse_dynamics_solver' build argument 'ament_cmake_args' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'kdl_inverse_dynamics_solver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.161s] Level 5:colcon.colcon_core.verb:set package 'kdl_inverse_dynamics_solver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.161s] DEBUG:colcon.colcon_core.verb:Building package 'kdl_inverse_dynamics_solver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver', 'merge_install': False, 'path': '/home/beniamino/ros2_ws/src/panda_impedance_controller/kdl_inverse_dynamics_solver', 'symlink_install': False, 'test_result_base': None}
+[1.162s] Level 5:colcon.colcon_core.verb:set package 'panda_impedance_controller' build argument 'cmake_args' from command line to 'None'
+[1.162s] Level 5:colcon.colcon_core.verb:set package 'panda_impedance_controller' build argument 'cmake_target' from command line to 'None'
+[1.162s] Level 5:colcon.colcon_core.verb:set package 'panda_impedance_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.162s] Level 5:colcon.colcon_core.verb:set package 'panda_impedance_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.162s] Level 5:colcon.colcon_core.verb:set package 'panda_impedance_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.162s] Level 5:colcon.colcon_core.verb:set package 'panda_impedance_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.162s] Level 5:colcon.colcon_core.verb:set package 'panda_impedance_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.162s] Level 5:colcon.colcon_core.verb:set package 'panda_impedance_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.162s] Level 5:colcon.colcon_core.verb:set package 'panda_impedance_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.162s] DEBUG:colcon.colcon_core.verb:Building package 'panda_impedance_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/beniamino/ros2_ws/build/panda_impedance_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/beniamino/ros2_ws/install/panda_impedance_controller', 'merge_install': False, 'path': '/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller', 'symlink_install': False, 'test_result_base': None}
+[1.163s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.164s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.165s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/beniamino/ros2_ws/src/panda_impedance_controller/inverse_dynamics_solver' with build type 'ament_cmake'
+[1.165s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/beniamino/ros2_ws/src/panda_impedance_controller/inverse_dynamics_solver'
+[1.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.169s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.169s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.177s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/beniamino/ros2_ws/src/panda_impedance_controller/ros_extensions_utilities' with build type 'ament_cmake'
+[1.177s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/beniamino/ros2_ws/src/panda_impedance_controller/ros_extensions_utilities'
+[1.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.185s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/beniamino/ros2_ws/src/panda_impedance_controller/cartesian_control_msgs' with build type 'ament_cmake'
+[1.185s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/beniamino/ros2_ws/src/panda_impedance_controller/cartesian_control_msgs'
+[1.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beniamino/ros2_ws/build/inverse_dynamics_solver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/inverse_dynamics_solver -- -j12 -l12
+[1.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beniamino/ros2_ws/build/ros_extensions_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/ros_extensions_utilities -- -j12 -l12
+[1.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beniamino/ros2_ws/build/cartesian_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/cartesian_control_msgs -- -j12 -l12
+[1.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beniamino/ros2_ws/build/inverse_dynamics_solver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/inverse_dynamics_solver -- -j12 -l12
+[1.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beniamino/ros2_ws/build/ros_extensions_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/ros_extensions_utilities -- -j12 -l12
+[1.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beniamino/ros2_ws/build/inverse_dynamics_solver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/inverse_dynamics_solver
+[1.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beniamino/ros2_ws/build/ros_extensions_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/ros_extensions_utilities
+[1.356s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(inverse_dynamics_solver)
+[1.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beniamino/ros2_ws/build/inverse_dynamics_solver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/inverse_dynamics_solver
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/inverse_dynamics_solver' for CMake module files
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/inverse_dynamics_solver' for CMake config files
+[1.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('inverse_dynamics_solver', 'cmake_prefix_path')
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/hook/cmake_prefix_path.ps1'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/hook/cmake_prefix_path.dsv'
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/hook/cmake_prefix_path.sh'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/bin'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/lib/pkgconfig/inverse_dynamics_solver.pc'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/lib/python3.10/site-packages'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/bin'
+[1.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/package.ps1'
+[1.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/package.dsv'
+[1.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/package.sh'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/package.bash'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/package.zsh'
+[1.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/colcon-core/packages/inverse_dynamics_solver)
+[1.381s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_extensions_utilities)
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/ros_extensions_utilities' for CMake module files
+[1.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beniamino/ros2_ws/build/ros_extensions_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/ros_extensions_utilities
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/ros_extensions_utilities' for CMake config files
+[1.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_extensions_utilities', 'cmake_prefix_path')
+[1.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/hook/cmake_prefix_path.ps1'
+[1.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/hook/cmake_prefix_path.dsv'
+[1.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/hook/cmake_prefix_path.sh'
+[1.387s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/ros_extensions_utilities/bin'
+[1.387s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/ros_extensions_utilities/lib/pkgconfig/ros_extensions_utilities.pc'
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/ros_extensions_utilities/lib/python3.10/site-packages'
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/ros_extensions_utilities/bin'
+[1.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/package.ps1'
+[1.389s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/package.dsv'
+[1.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/package.sh'
+[1.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/package.bash'
+[1.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/package.zsh'
+[1.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/colcon-core/packages/ros_extensions_utilities)
+[1.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(inverse_dynamics_solver)
+[1.418s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/inverse_dynamics_solver' for CMake module files
+[1.419s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/inverse_dynamics_solver' for CMake config files
+[1.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('inverse_dynamics_solver', 'cmake_prefix_path')
+[1.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/hook/cmake_prefix_path.ps1'
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/hook/cmake_prefix_path.dsv'
+[1.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/hook/cmake_prefix_path.sh'
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/bin'
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/lib/pkgconfig/inverse_dynamics_solver.pc'
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/lib/python3.10/site-packages'
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/bin'
+[1.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/package.ps1'
+[1.426s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/package.dsv'
+[1.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/package.sh'
+[1.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/package.bash'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/inverse_dynamics_solver/package.zsh'
+[1.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beniamino/ros2_ws/install/inverse_dynamics_solver/share/colcon-core/packages/inverse_dynamics_solver)
+[1.432s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_extensions_utilities)
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/ros_extensions_utilities' for CMake module files
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/ros_extensions_utilities' for CMake config files
+[1.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_extensions_utilities', 'cmake_prefix_path')
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/hook/cmake_prefix_path.ps1'
+[1.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/hook/cmake_prefix_path.dsv'
+[1.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/hook/cmake_prefix_path.sh'
+[1.439s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/ros_extensions_utilities/bin'
+[1.439s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/ros_extensions_utilities/lib/pkgconfig/ros_extensions_utilities.pc'
+[1.440s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/ros_extensions_utilities/lib/python3.10/site-packages'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/ros_extensions_utilities/bin'
+[1.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/package.ps1'
+[1.443s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/package.dsv'
+[1.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/package.sh'
+[1.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/package.bash'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/package.zsh'
+[1.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beniamino/ros2_ws/install/ros_extensions_utilities/share/colcon-core/packages/ros_extensions_utilities)
+[1.448s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/beniamino/ros2_ws/src/panda_impedance_controller/kdl_inverse_dynamics_solver' with build type 'ament_cmake'
+[1.448s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/beniamino/ros2_ws/src/panda_impedance_controller/kdl_inverse_dynamics_solver'
+[1.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.449s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver': CMAKE_PREFIX_PATH=/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver -- -j12 -l12
+[1.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver' returned '0': CMAKE_PREFIX_PATH=/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver -- -j12 -l12
+[1.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver': CMAKE_PREFIX_PATH=/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver
+[1.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kdl_inverse_dynamics_solver)
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver' for CMake module files
+[1.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver' returned '0': CMAKE_PREFIX_PATH=/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver
+[1.774s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver' for CMake config files
+[1.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('kdl_inverse_dynamics_solver', 'cmake_prefix_path')
+[1.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/hook/cmake_prefix_path.ps1'
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/hook/cmake_prefix_path.dsv'
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/hook/cmake_prefix_path.sh'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib'
+[1.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('kdl_inverse_dynamics_solver', 'ld_library_path_lib')
+[1.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/hook/ld_library_path_lib.ps1'
+[1.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/hook/ld_library_path_lib.dsv'
+[1.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/hook/ld_library_path_lib.sh'
+[1.779s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/bin'
+[1.779s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib/pkgconfig/kdl_inverse_dynamics_solver.pc'
+[1.779s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib/python3.10/site-packages'
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/bin'
+[1.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/package.ps1'
+[1.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/package.dsv'
+[1.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/package.sh'
+[1.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/package.bash'
+[1.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/package.zsh'
+[1.783s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/colcon-core/packages/kdl_inverse_dynamics_solver)
+[1.837s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kdl_inverse_dynamics_solver)
+[1.838s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver' for CMake module files
+[1.839s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver' for CMake config files
+[1.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('kdl_inverse_dynamics_solver', 'cmake_prefix_path')
+[1.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/hook/cmake_prefix_path.ps1'
+[1.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/hook/cmake_prefix_path.dsv'
+[1.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/hook/cmake_prefix_path.sh'
+[1.842s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib'
+[1.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('kdl_inverse_dynamics_solver', 'ld_library_path_lib')
+[1.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/hook/ld_library_path_lib.ps1'
+[1.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/hook/ld_library_path_lib.dsv'
+[1.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/hook/ld_library_path_lib.sh'
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/bin'
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib/pkgconfig/kdl_inverse_dynamics_solver.pc'
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib/python3.10/site-packages'
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/bin'
+[1.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/package.ps1'
+[1.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/package.dsv'
+[1.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/package.sh'
+[1.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/package.bash'
+[1.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/package.zsh'
+[1.850s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/colcon-core/packages/kdl_inverse_dynamics_solver)
+[1.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beniamino/ros2_ws/build/cartesian_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/cartesian_control_msgs -- -j12 -l12
+[2.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beniamino/ros2_ws/build/cartesian_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/cartesian_control_msgs
+[2.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartesian_control_msgs)
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/cartesian_control_msgs' for CMake module files
+[2.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beniamino/ros2_ws/build/cartesian_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/cartesian_control_msgs
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/cartesian_control_msgs' for CMake config files
+[2.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartesian_control_msgs', 'cmake_prefix_path')
+[2.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/hook/cmake_prefix_path.ps1'
+[2.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/hook/cmake_prefix_path.dsv'
+[2.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/hook/cmake_prefix_path.sh'
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib'
+[2.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartesian_control_msgs', 'ld_library_path_lib')
+[2.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/hook/ld_library_path_lib.ps1'
+[2.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/hook/ld_library_path_lib.dsv'
+[2.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/hook/ld_library_path_lib.sh'
+[2.187s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/cartesian_control_msgs/bin'
+[2.187s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/pkgconfig/cartesian_control_msgs.pc'
+[2.187s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/python3.10/site-packages'
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/cartesian_control_msgs/bin'
+[2.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/package.ps1'
+[2.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/package.dsv'
+[2.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/package.sh'
+[2.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/package.bash'
+[2.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/package.zsh'
+[2.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/colcon-core/packages/cartesian_control_msgs)
+[2.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartesian_control_msgs)
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/cartesian_control_msgs' for CMake module files
+[2.300s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/cartesian_control_msgs' for CMake config files
+[2.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartesian_control_msgs', 'cmake_prefix_path')
+[2.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/hook/cmake_prefix_path.ps1'
+[2.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/hook/cmake_prefix_path.dsv'
+[2.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/hook/cmake_prefix_path.sh'
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib'
+[2.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartesian_control_msgs', 'ld_library_path_lib')
+[2.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/hook/ld_library_path_lib.ps1'
+[2.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/hook/ld_library_path_lib.dsv'
+[2.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/hook/ld_library_path_lib.sh'
+[2.306s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/cartesian_control_msgs/bin'
+[2.306s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/pkgconfig/cartesian_control_msgs.pc'
+[2.306s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/python3.10/site-packages'
+[2.307s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/cartesian_control_msgs/bin'
+[2.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/package.ps1'
+[2.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/package.dsv'
+[2.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/package.sh'
+[2.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/package.bash'
+[2.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/package.zsh'
+[2.311s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beniamino/ros2_ws/install/cartesian_control_msgs/share/colcon-core/packages/cartesian_control_msgs)
+[2.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller' with build type 'ament_cmake'
+[2.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller'
+[2.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beniamino/ros2_ws/build/panda_impedance_controller': CMAKE_PREFIX_PATH=/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble LD_LIBRARY_PATH=/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib:/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib:/home/beniamino/ros2_ws/install/panda_impedance_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/beniamino/ros2_ws/build/panda_impedance_controller -- -j12 -l12
+[39.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beniamino/ros2_ws/build/panda_impedance_controller' returned '0': CMAKE_PREFIX_PATH=/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble LD_LIBRARY_PATH=/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib:/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib:/home/beniamino/ros2_ws/install/panda_impedance_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/beniamino/ros2_ws/build/panda_impedance_controller -- -j12 -l12
+[39.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/beniamino/ros2_ws/build/panda_impedance_controller': CMAKE_PREFIX_PATH=/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble LD_LIBRARY_PATH=/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib:/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib:/home/beniamino/ros2_ws/install/panda_impedance_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/beniamino/ros2_ws/build/panda_impedance_controller
+[39.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_impedance_controller)
+[39.374s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/panda_impedance_controller' for CMake module files
+[39.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/beniamino/ros2_ws/build/panda_impedance_controller' returned '0': CMAKE_PREFIX_PATH=/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble LD_LIBRARY_PATH=/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib:/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib:/home/beniamino/ros2_ws/install/panda_impedance_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/beniamino/ros2_ws/build/panda_impedance_controller
+[39.375s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/panda_impedance_controller' for CMake config files
+[39.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_impedance_controller', 'cmake_prefix_path')
+[39.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/hook/cmake_prefix_path.ps1'
+[39.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/hook/cmake_prefix_path.dsv'
+[39.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/hook/cmake_prefix_path.sh'
+[39.379s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/panda_impedance_controller/lib'
+[39.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_impedance_controller', 'ld_library_path_lib')
+[39.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/hook/ld_library_path_lib.ps1'
+[39.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/hook/ld_library_path_lib.dsv'
+[39.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/hook/ld_library_path_lib.sh'
+[39.382s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/panda_impedance_controller/bin'
+[39.382s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/panda_impedance_controller/lib/pkgconfig/panda_impedance_controller.pc'
+[39.383s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/panda_impedance_controller/lib/python3.10/site-packages'
+[39.383s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/panda_impedance_controller/bin'
+[39.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/package.ps1'
+[39.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/package.dsv'
+[39.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/package.sh'
+[39.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/package.bash'
+[39.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/package.zsh'
+[39.388s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beniamino/ros2_ws/install/panda_impedance_controller/share/colcon-core/packages/panda_impedance_controller)
+[39.437s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_impedance_controller)
+[39.438s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/panda_impedance_controller' for CMake module files
+[39.439s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/panda_impedance_controller' for CMake config files
+[39.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_impedance_controller', 'cmake_prefix_path')
+[39.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/hook/cmake_prefix_path.ps1'
+[39.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/hook/cmake_prefix_path.dsv'
+[39.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/hook/cmake_prefix_path.sh'
+[39.442s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/panda_impedance_controller/lib'
+[39.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_impedance_controller', 'ld_library_path_lib')
+[39.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/hook/ld_library_path_lib.ps1'
+[39.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/hook/ld_library_path_lib.dsv'
+[39.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/hook/ld_library_path_lib.sh'
+[39.445s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/panda_impedance_controller/bin'
+[39.445s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/panda_impedance_controller/lib/pkgconfig/panda_impedance_controller.pc'
+[39.445s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/panda_impedance_controller/lib/python3.10/site-packages'
+[39.446s] Level 1:colcon.colcon_core.environment:checking '/home/beniamino/ros2_ws/install/panda_impedance_controller/bin'
+[39.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/package.ps1'
+[39.447s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/package.dsv'
+[39.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/package.sh'
+[39.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/package.bash'
+[39.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/beniamino/ros2_ws/install/panda_impedance_controller/share/panda_impedance_controller/package.zsh'
+[39.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/beniamino/ros2_ws/install/panda_impedance_controller/share/colcon-core/packages/panda_impedance_controller)
+[39.452s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[39.452s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[39.452s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[39.452s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[39.461s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[39.461s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[39.461s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[39.477s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[39.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/beniamino/ros2_ws/install/local_setup.ps1'
+[39.480s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/beniamino/ros2_ws/install/_local_setup_util_ps1.py'
+[39.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/beniamino/ros2_ws/install/setup.ps1'
+[39.484s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/beniamino/ros2_ws/install/local_setup.sh'
+[39.485s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/beniamino/ros2_ws/install/_local_setup_util_sh.py'
+[39.486s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/beniamino/ros2_ws/install/setup.sh'
+[39.489s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/beniamino/ros2_ws/install/local_setup.bash'
+[39.491s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/beniamino/ros2_ws/install/setup.bash'
+[39.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/beniamino/ros2_ws/install/local_setup.zsh'
+[39.495s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/beniamino/ros2_ws/install/setup.zsh'

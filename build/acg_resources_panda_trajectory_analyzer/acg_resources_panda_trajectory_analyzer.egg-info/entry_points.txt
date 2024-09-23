@@ -1,0 +1,2 @@
+[console_scripts]
+trajectory_analyzer = acg_resources_panda_trajectory_analyzer.trajectory_analyzer:main

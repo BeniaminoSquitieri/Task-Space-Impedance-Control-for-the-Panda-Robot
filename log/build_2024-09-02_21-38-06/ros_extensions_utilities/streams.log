@@ -1,0 +1,80 @@
+[0.078s] Invoking command in '/home/beniamino/ros2_ws/build/ros_extensions_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake /home/beniamino/ros2_ws/src/panda_impedance_controller/ros_extensions_utilities -DCMAKE_INSTALL_PREFIX=/home/beniamino/ros2_ws/install/ros_extensions_utilities
+[0.754s] -- The C compiler identification is GNU 11.4.0
+[1.151s] -- The CXX compiler identification is GNU 11.4.0
+[1.164s] -- Detecting C compiler ABI info
+[1.353s] -- Detecting C compiler ABI info - done
+[1.371s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.372s] -- Detecting C compile features
+[1.372s] -- Detecting C compile features - done
+[1.380s] -- Detecting CXX compiler ABI info
+[1.488s] -- Detecting CXX compiler ABI info - done
+[1.503s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.504s] -- Detecting CXX compile features
+[1.505s] -- Detecting CXX compile features - done
+[1.516s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.981s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.120s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.364s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.372s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.389s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.038s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.047s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.336s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.367s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.430s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.455s] -- Looking for pthread.h
+[3.649s] -- Looking for pthread.h - found
+[3.649s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.776s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.777s] -- Found Threads: TRUE  
+[3.928s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[4.098s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.188s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[4.241s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.320s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.480s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.570s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.570s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.069s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.190s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.191s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.191s] -- Configured cppcheck include dirs: 
+[5.191s] -- Configured cppcheck exclude dirs and/or files: 
+[5.193s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.193s] -- Configured cpplint exclude dirs and/or files: 
+[5.194s] -- Added test 'lint_cmake' to check CMake code style
+[5.195s] -- Added test 'uncrustify' to check C / C++ code style
+[5.195s] -- Configured uncrustify additional arguments: 
+[5.195s] -- Added test 'xmllint' to check XML markup files
+[5.198s] -- Configuring done
+[5.210s] -- Generating done
+[5.213s] -- Build files have been written to: /home/beniamino/ros2_ws/build/ros_extensions_utilities
+[5.249s] Invoked command in '/home/beniamino/ros2_ws/build/ros_extensions_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake /home/beniamino/ros2_ws/src/panda_impedance_controller/ros_extensions_utilities -DCMAKE_INSTALL_PREFIX=/home/beniamino/ros2_ws/install/ros_extensions_utilities
+[5.252s] Invoking command in '/home/beniamino/ros2_ws/build/ros_extensions_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/ros_extensions_utilities -- -j12 -l12
+[5.312s] Invoked command in '/home/beniamino/ros2_ws/build/ros_extensions_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/ros_extensions_utilities -- -j12 -l12
+[5.344s] Invoking command in '/home/beniamino/ros2_ws/build/ros_extensions_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/ros_extensions_utilities
+[5.353s] -- Install configuration: ""
+[5.354s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/include
+[5.354s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/include/ros_extensions_utilities
+[5.354s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/include/ros_extensions_utilities/exceptions.h
+[5.354s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/include/ros_extensions_utilities/ros_extensions_utils.h
+[5.354s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ament_index/resource_index/package_run_dependencies/ros_extensions_utilities
+[5.354s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ament_index/resource_index/parent_prefix_path/ros_extensions_utilities
+[5.354s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/environment/ament_prefix_path.sh
+[5.354s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/environment/ament_prefix_path.dsv
+[5.355s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/environment/path.sh
+[5.355s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/environment/path.dsv
+[5.355s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/local_setup.bash
+[5.355s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/local_setup.sh
+[5.356s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/local_setup.zsh
+[5.356s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/local_setup.dsv
+[5.356s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/package.dsv
+[5.356s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ament_index/resource_index/packages/ros_extensions_utilities
+[5.356s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.357s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.357s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/cmake/ros_extensions_utilitiesConfig.cmake
+[5.357s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/cmake/ros_extensions_utilitiesConfig-version.cmake
+[5.357s] -- Installing: /home/beniamino/ros2_ws/install/ros_extensions_utilities/share/ros_extensions_utilities/package.xml
+[5.361s] Invoked command in '/home/beniamino/ros2_ws/build/ros_extensions_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/ros_extensions_utilities

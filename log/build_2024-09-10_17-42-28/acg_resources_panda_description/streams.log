@@ -1,0 +1,51 @@
+[0.036s] Invoking command in '/home/beniamino/ros2_ws/build/acg_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/acg_resources_panda_description -- -j12 -l12
+[1.614s] Invoked command in '/home/beniamino/ros2_ws/build/acg_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/acg_resources_panda_description -- -j12 -l12
+[2.175s] Invoking command in '/home/beniamino/ros2_ws/build/acg_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/acg_resources_panda_description
+[2.186s] -- Install configuration: ""
+[2.186s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/ament_index/resource_index/package_run_dependencies/acg_resources_panda_description
+[2.187s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/ament_index/resource_index/parent_prefix_path/acg_resources_panda_description
+[2.187s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/environment/ament_prefix_path.sh
+[2.187s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/environment/ament_prefix_path.dsv
+[2.188s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/environment/path.sh
+[2.189s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/environment/path.dsv
+[2.189s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/local_setup.bash
+[2.189s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/local_setup.sh
+[2.189s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/local_setup.zsh
+[2.189s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/local_setup.dsv
+[2.190s] -- Installing: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/package.dsv
+[2.190s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/ament_index/resource_index/packages/acg_resources_panda_description
+[2.190s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/cmake/acg_resources_panda_descriptionConfig.cmake
+[2.190s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/cmake/acg_resources_panda_descriptionConfig-version.cmake
+[2.190s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/package.xml
+[2.192s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes
+[2.193s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual
+[2.193s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link5.dae
+[2.193s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link2.dae
+[2.194s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/finger.dae
+[2.194s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link4.dae
+[2.194s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link0.dae
+[2.195s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link3.dae
+[2.195s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/hand.dae
+[2.195s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link7.dae
+[2.195s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link1.dae
+[2.196s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link6.dae
+[2.196s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision
+[2.196s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link6.stl
+[2.197s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/finger.stl
+[2.197s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link3.stl
+[2.197s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link2.stl
+[2.197s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link4.stl
+[2.198s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link5.stl
+[2.198s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link0.stl
+[2.198s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/hand.stl
+[2.199s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link7.stl
+[2.199s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link1.stl
+[2.199s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/urdf
+[2.199s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/urdf/panda.xacro
+[2.200s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/urdf/inertial.xacro
+[2.200s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/launch
+[2.201s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/launch/display.launch.py
+[2.201s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/config
+[2.201s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/config/inertial.yaml
+[2.201s] -- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/config/urdf.rviz
+[2.229s] Invoked command in '/home/beniamino/ros2_ws/build/acg_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/acg_resources_panda_description

@@ -1,0 +1,42 @@
+[0.000000] (-) TimerEvent: {}
+[0.000675] (-) JobUnselected: {'identifier': 'acg_resources_panda_trajectory_analyzer'}
+[0.000896] (-) JobUnselected: {'identifier': 'acg_resources_panda_trajectory_generation'}
+[0.000934] (-) JobUnselected: {'identifier': 'inverse_dynamics_solver'}
+[0.001179] (-) JobUnselected: {'identifier': 'kdl_inverse_dynamics_solver'}
+[0.001252] (-) JobUnselected: {'identifier': 'panda_impedance_controller'}
+[0.001283] (-) JobUnselected: {'identifier': 'ros_extensions_utilities'}
+[0.001313] (acg_resources_panda_description) JobQueued: {'identifier': 'acg_resources_panda_description', 'dependencies': OrderedDict()}
+[0.001346] (cartesian_control_msgs) JobQueued: {'identifier': 'cartesian_control_msgs', 'dependencies': OrderedDict()}
+[0.001373] (acg_resources_panda_moveit_config) JobQueued: {'identifier': 'acg_resources_panda_moveit_config', 'dependencies': OrderedDict([('acg_resources_panda_description', '/home/beniamino/ros2_ws/install/acg_resources_panda_description')])}
+[0.001406] (panda_moveit_planning_demo) JobQueued: {'identifier': 'panda_moveit_planning_demo', 'dependencies': OrderedDict([('acg_resources_panda_description', '/home/beniamino/ros2_ws/install/acg_resources_panda_description'), ('cartesian_control_msgs', '/home/beniamino/ros2_ws/install/cartesian_control_msgs'), ('acg_resources_panda_moveit_config', '/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config')])}
+[0.001446] (acg_resources_panda_description) JobStarted: {'identifier': 'acg_resources_panda_description'}
+[0.099548] (-) TimerEvent: {}
+[0.199923] (-) TimerEvent: {}
+[0.300364] (-) TimerEvent: {}
+[0.400846] (-) TimerEvent: {}
+[0.501245] (-) TimerEvent: {}
+[0.601930] (-) TimerEvent: {}
+[0.702284] (-) TimerEvent: {}
+[0.802656] (-) TimerEvent: {}
+[0.902999] (-) TimerEvent: {}
+[1.003523] (-) TimerEvent: {}
+[1.104167] (-) TimerEvent: {}
+[1.204479] (-) TimerEvent: {}
+[1.304817] (-) TimerEvent: {}
+[1.405143] (-) TimerEvent: {}
+[1.505519] (-) TimerEvent: {}
+[1.606399] (-) TimerEvent: {}
+[1.706775] (-) TimerEvent: {}
+[1.807294] (-) TimerEvent: {}
+[1.907609] (-) TimerEvent: {}
+[2.007963] (-) TimerEvent: {}
+[2.108447] (-) TimerEvent: {}
+[2.208784] (-) TimerEvent: {}
+[2.242392] (acg_resources_panda_description) JobEnded: {'identifier': 'acg_resources_panda_description', 'rc': 0}
+[2.444330] (-) TimerEvent: {}
+[2.444788] (cartesian_control_msgs) JobStarted: {'identifier': 'cartesian_control_msgs'}
+[2.446849] (cartesian_control_msgs) JobEnded: {'identifier': 'cartesian_control_msgs', 'rc': 'SIGINT'}
+[2.570839] (-) TimerEvent: {}
+[2.571291] (acg_resources_panda_moveit_config) JobSkipped: {'identifier': 'acg_resources_panda_moveit_config'}
+[2.571347] (panda_moveit_planning_demo) JobSkipped: {'identifier': 'panda_moveit_planning_demo'}
+[2.571382] (-) EventReactorShutdown: {}

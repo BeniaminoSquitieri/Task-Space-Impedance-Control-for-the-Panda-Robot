@@ -1,0 +1,21 @@
+[2.207s] Invoking command in '/home/beniamino/ros2_ws/src/panda_impedance_controller/acg_resources_panda_trajectory_analyzer': PYTHONPATH=/home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/acg_resources_panda_trajectory_analyzer build --build-base /home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_analyzer/build install --record /home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_analyzer/install.log --single-version-externally-managed install_data
+[2.636s] running egg_info
+[2.666s] writing ../../../build/acg_resources_panda_trajectory_analyzer/acg_resources_panda_trajectory_analyzer.egg-info/PKG-INFO
+[2.667s] writing dependency_links to ../../../build/acg_resources_panda_trajectory_analyzer/acg_resources_panda_trajectory_analyzer.egg-info/dependency_links.txt
+[2.667s] writing entry points to ../../../build/acg_resources_panda_trajectory_analyzer/acg_resources_panda_trajectory_analyzer.egg-info/entry_points.txt
+[2.668s] writing requirements to ../../../build/acg_resources_panda_trajectory_analyzer/acg_resources_panda_trajectory_analyzer.egg-info/requires.txt
+[2.668s] writing top-level names to ../../../build/acg_resources_panda_trajectory_analyzer/acg_resources_panda_trajectory_analyzer.egg-info/top_level.txt
+[2.731s] reading manifest file '../../../build/acg_resources_panda_trajectory_analyzer/acg_resources_panda_trajectory_analyzer.egg-info/SOURCES.txt'
+[2.732s] writing manifest file '../../../build/acg_resources_panda_trajectory_analyzer/acg_resources_panda_trajectory_analyzer.egg-info/SOURCES.txt'
+[2.732s] running build
+[2.732s] running build_py
+[2.733s] running install
+[2.742s] running install_lib
+[2.777s] running install_data
+[2.777s] running install_egg_info
+[2.810s] removing '/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer/lib/python3.10/site-packages/acg_resources_panda_trajectory_analyzer-0.1.0-py3.10.egg-info' (and everything under it)
+[2.810s] Copying ../../../build/acg_resources_panda_trajectory_analyzer/acg_resources_panda_trajectory_analyzer.egg-info to /home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer/lib/python3.10/site-packages/acg_resources_panda_trajectory_analyzer-0.1.0-py3.10.egg-info
+[2.812s] running install_scripts
+[3.109s] Installing trajectory_analyzer script to /home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer/lib/acg_resources_panda_trajectory_analyzer
+[3.109s] writing list of installed files to '/home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_analyzer/install.log'
+[3.150s] Invoked command in '/home/beniamino/ros2_ws/src/panda_impedance_controller/acg_resources_panda_trajectory_analyzer' returned '0': PYTHONPATH=/home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/acg_resources_panda_trajectory_analyzer build --build-base /home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_analyzer/build install --record /home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_analyzer/install.log --single-version-externally-managed install_data

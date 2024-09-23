@@ -1,0 +1,633 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (-) JobUnselected: {'identifier': 'acg_resources_panda_trajectory_analyzer'}
+[0.000181] (-) JobUnselected: {'identifier': 'acg_resources_panda_trajectory_generation'}
+[0.000200] (-) JobUnselected: {'identifier': 'inverse_dynamics_solver'}
+[0.000214] (-) JobUnselected: {'identifier': 'kdl_inverse_dynamics_solver'}
+[0.000228] (-) JobUnselected: {'identifier': 'panda_impedance_controller'}
+[0.000242] (-) JobUnselected: {'identifier': 'ros_extensions_utilities'}
+[0.000258] (acg_resources_panda_description) JobQueued: {'identifier': 'acg_resources_panda_description', 'dependencies': OrderedDict()}
+[0.000276] (cartesian_control_msgs) JobQueued: {'identifier': 'cartesian_control_msgs', 'dependencies': OrderedDict()}
+[0.000318] (acg_resources_panda_moveit_config) JobQueued: {'identifier': 'acg_resources_panda_moveit_config', 'dependencies': OrderedDict([('acg_resources_panda_description', '/home/beniamino/ros2_ws/install/acg_resources_panda_description')])}
+[0.000362] (panda_moveit_planning_demo) JobQueued: {'identifier': 'panda_moveit_planning_demo', 'dependencies': OrderedDict([('acg_resources_panda_description', '/home/beniamino/ros2_ws/install/acg_resources_panda_description'), ('cartesian_control_msgs', '/home/beniamino/ros2_ws/install/cartesian_control_msgs'), ('acg_resources_panda_moveit_config', '/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config')])}
+[0.000407] (acg_resources_panda_description) JobStarted: {'identifier': 'acg_resources_panda_description'}
+[0.005996] (cartesian_control_msgs) JobStarted: {'identifier': 'cartesian_control_msgs'}
+[0.012041] (acg_resources_panda_description) JobProgress: {'identifier': 'acg_resources_panda_description', 'progress': 'cmake'}
+[0.013205] (acg_resources_panda_description) JobProgress: {'identifier': 'acg_resources_panda_description', 'progress': 'build'}
+[0.013340] (acg_resources_panda_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/beniamino/ros2_ws/build/acg_resources_panda_description', '--', '-j12', '-l12'], 'cwd': '/home/beniamino/ros2_ws/build/acg_resources_panda_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'beniamino'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/beniamino/ros2_ws/install/panda_impedance_controller/lib:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib:/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/beniamino'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5392'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/beniamino/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'beniamino'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'beniamino'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/beniamino/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/beniamino-TUF-Gaming-FX505GE-FX505GE:@/tmp/.ICE-unix/1990,unix/beniamino-TUF-Gaming-FX505GE-FX505GE:/tmp/.ICE-unix/1990'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7228cda_d3bc_44e5_acfe_48b1c97cfad6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WGWOT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.169'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/beniamino/ros2_ws/build/acg_resources_panda_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble')]), 'shell': False}
+[0.017660] (cartesian_control_msgs) JobProgress: {'identifier': 'cartesian_control_msgs', 'progress': 'cmake'}
+[0.018957] (cartesian_control_msgs) JobProgress: {'identifier': 'cartesian_control_msgs', 'progress': 'build'}
+[0.019017] (cartesian_control_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/beniamino/ros2_ws/build/cartesian_control_msgs', '--', '-j12', '-l12'], 'cwd': '/home/beniamino/ros2_ws/build/cartesian_control_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'beniamino'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/beniamino/ros2_ws/install/panda_impedance_controller/lib:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib:/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/beniamino'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5392'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/beniamino/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'beniamino'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'beniamino'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/beniamino/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/beniamino-TUF-Gaming-FX505GE-FX505GE:@/tmp/.ICE-unix/1990,unix/beniamino-TUF-Gaming-FX505GE-FX505GE:/tmp/.ICE-unix/1990'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7228cda_d3bc_44e5_acfe_48b1c97cfad6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WGWOT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.169'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/beniamino/ros2_ws/build/cartesian_control_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble')]), 'shell': False}
+[0.055041] (acg_resources_panda_description) CommandEnded: {'returncode': 0}
+[0.074794] (cartesian_control_msgs) StdoutLine: {'line': b'[  3%] Built target cartesian_control_msgs__cpp\n'}
+[0.075629] (cartesian_control_msgs) StdoutLine: {'line': b'[ 12%] Built target cartesian_control_msgs__rosidl_generator_c\n'}
+[0.077563] (acg_resources_panda_description) JobProgress: {'identifier': 'acg_resources_panda_description', 'progress': 'install'}
+[0.084734] (cartesian_control_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_cartesian_control_msgs\n'}
+[0.087243] (acg_resources_panda_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/beniamino/ros2_ws/build/acg_resources_panda_description'], 'cwd': '/home/beniamino/ros2_ws/build/acg_resources_panda_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'beniamino'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/beniamino/ros2_ws/install/panda_impedance_controller/lib:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib:/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/beniamino'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5392'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/beniamino/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'beniamino'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'beniamino'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/beniamino/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/beniamino-TUF-Gaming-FX505GE-FX505GE:@/tmp/.ICE-unix/1990,unix/beniamino-TUF-Gaming-FX505GE-FX505GE:/tmp/.ICE-unix/1990'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7228cda_d3bc_44e5_acfe_48b1c97cfad6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WGWOT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.169'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/beniamino/ros2_ws/build/acg_resources_panda_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble')]), 'shell': False}
+[0.099400] (-) TimerEvent: {}
+[0.100659] (acg_resources_panda_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.102410] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/ament_index/resource_index/package_run_dependencies/acg_resources_panda_description\n'}
+[0.102871] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/ament_index/resource_index/parent_prefix_path/acg_resources_panda_description\n'}
+[0.103045] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/environment/ament_prefix_path.sh\n'}
+[0.103209] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/environment/ament_prefix_path.dsv\n'}
+[0.103314] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/environment/path.sh\n'}
+[0.103413] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/environment/path.dsv\n'}
+[0.103528] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/local_setup.bash\n'}
+[0.103628] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/local_setup.sh\n'}
+[0.103727] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/local_setup.zsh\n'}
+[0.103823] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/local_setup.dsv\n'}
+[0.103917] (acg_resources_panda_description) StdoutLine: {'line': b'-- Installing: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/package.dsv\n'}
+[0.104011] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/ament_index/resource_index/packages/acg_resources_panda_description\n'}
+[0.104209] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/cmake/acg_resources_panda_descriptionConfig.cmake\n'}
+[0.104393] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/cmake/acg_resources_panda_descriptionConfig-version.cmake\n'}
+[0.104562] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/package.xml\n'}
+[0.104731] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes\n'}
+[0.104900] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual\n'}
+[0.105064] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link5.dae\n'}
+[0.105257] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link2.dae\n'}
+[0.105367] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/finger.dae\n'}
+[0.105465] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link4.dae\n'}
+[0.105578] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link0.dae\n'}
+[0.105709] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link3.dae\n'}
+[0.105834] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/hand.dae\n'}
+[0.106061] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link7.dae\n'}
+[0.107037] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link1.dae\n'}
+[0.107842] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/visual/link6.dae\n'}
+[0.108455] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision\n'}
+[0.108772] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link6.stl\n'}
+[0.109135] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/finger.stl\n'}
+[0.109289] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link3.stl\n'}
+[0.109476] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link2.stl\n'}
+[0.109639] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link4.stl\n'}
+[0.109770] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link5.stl\n'}
+[0.110077] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link0.stl\n'}
+[0.110435] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/hand.stl\n'}
+[0.110723] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link7.stl\n'}
+[0.110909] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/meshes/collision/link1.stl\n'}
+[0.111215] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/urdf\n'}
+[0.111666] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/urdf/panda.xacro\n'}
+[0.111799] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/urdf/inertial.xacro\n'}
+[0.112000] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/launch\n'}
+[0.112289] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/launch/display.launch.py\n'}
+[0.112540] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/config\n'}
+[0.112786] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/config/inertial.yaml\n'}
+[0.112976] (acg_resources_panda_description) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_description/share/acg_resources_panda_description/config/urdf.rviz\n'}
+[0.113433] (cartesian_control_msgs) StdoutLine: {'line': b'[ 22%] Built target cartesian_control_msgs__rosidl_typesupport_cpp\n'}
+[0.113693] (cartesian_control_msgs) StdoutLine: {'line': b'[ 32%] Built target cartesian_control_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.113765] (acg_resources_panda_description) CommandEnded: {'returncode': 0}
+[0.114693] (cartesian_control_msgs) StdoutLine: {'line': b'[ 41%] Built target cartesian_control_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.120709] (cartesian_control_msgs) StdoutLine: {'line': b'[ 51%] Built target cartesian_control_msgs__rosidl_typesupport_introspection_c\n'}
+[0.122376] (cartesian_control_msgs) StdoutLine: {'line': b'[ 61%] Built target cartesian_control_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.123975] (cartesian_control_msgs) StdoutLine: {'line': b'[ 70%] Built target cartesian_control_msgs__rosidl_typesupport_c\n'}
+[0.148207] (cartesian_control_msgs) StdoutLine: {'line': b'[ 70%] Built target cartesian_control_msgs\n'}
+[0.159314] (acg_resources_panda_description) JobEnded: {'identifier': 'acg_resources_panda_description', 'rc': 0}
+[0.160265] (acg_resources_panda_moveit_config) JobStarted: {'identifier': 'acg_resources_panda_moveit_config'}
+[0.166521] (acg_resources_panda_moveit_config) JobProgress: {'identifier': 'acg_resources_panda_moveit_config', 'progress': 'cmake'}
+[0.167001] (acg_resources_panda_moveit_config) JobProgress: {'identifier': 'acg_resources_panda_moveit_config', 'progress': 'build'}
+[0.167224] (acg_resources_panda_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/beniamino/ros2_ws/build/acg_resources_panda_moveit_config', '--', '-j12', '-l12'], 'cwd': '/home/beniamino/ros2_ws/build/acg_resources_panda_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'beniamino'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/beniamino/ros2_ws/install/panda_impedance_controller/lib:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib:/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/beniamino'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5392'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/beniamino/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'beniamino'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'beniamino'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/beniamino/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/beniamino-TUF-Gaming-FX505GE-FX505GE:@/tmp/.ICE-unix/1990,unix/beniamino-TUF-Gaming-FX505GE-FX505GE:/tmp/.ICE-unix/1990'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7228cda_d3bc_44e5_acfe_48b1c97cfad6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WGWOT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.169'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/beniamino/ros2_ws/build/acg_resources_panda_moveit_config'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble')]), 'shell': False}
+[0.171108] (cartesian_control_msgs) StdoutLine: {'line': b'[ 74%] Built target cartesian_control_msgs__py\n'}
+[0.198332] (cartesian_control_msgs) StdoutLine: {'line': b'[ 80%] Built target cartesian_control_msgs__rosidl_generator_py\n'}
+[0.199477] (-) TimerEvent: {}
+[0.212747] (acg_resources_panda_moveit_config) CommandEnded: {'returncode': 0}
+[0.226108] (cartesian_control_msgs) StdoutLine: {'line': b'[ 93%] Built target cartesian_control_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.226352] (cartesian_control_msgs) StdoutLine: {'line': b'[ 93%] Built target cartesian_control_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.229733] (cartesian_control_msgs) StdoutLine: {'line': b'[100%] Built target cartesian_control_msgs__rosidl_typesupport_c__pyext\n'}
+[0.238027] (acg_resources_panda_moveit_config) JobProgress: {'identifier': 'acg_resources_panda_moveit_config', 'progress': 'install'}
+[0.238843] (acg_resources_panda_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/beniamino/ros2_ws/build/acg_resources_panda_moveit_config'], 'cwd': '/home/beniamino/ros2_ws/build/acg_resources_panda_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'beniamino'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/beniamino/ros2_ws/install/panda_impedance_controller/lib:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib:/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/beniamino'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5392'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/beniamino/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'beniamino'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'beniamino'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/beniamino/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/beniamino-TUF-Gaming-FX505GE-FX505GE:@/tmp/.ICE-unix/1990,unix/beniamino-TUF-Gaming-FX505GE-FX505GE:/tmp/.ICE-unix/1990'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7228cda_d3bc_44e5_acfe_48b1c97cfad6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WGWOT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.169'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/beniamino/ros2_ws/build/acg_resources_panda_moveit_config'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble')]), 'shell': False}
+[0.246264] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.246539] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/ament_index/resource_index/package_run_dependencies/acg_resources_panda_moveit_config\n'}
+[0.246678] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/ament_index/resource_index/parent_prefix_path/acg_resources_panda_moveit_config\n'}
+[0.246840] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/environment/ament_prefix_path.sh\n'}
+[0.246997] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/environment/ament_prefix_path.dsv\n'}
+[0.247195] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/environment/path.sh\n'}
+[0.247371] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/environment/path.dsv\n'}
+[0.247549] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/local_setup.bash\n'}
+[0.247737] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/local_setup.sh\n'}
+[0.248031] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/local_setup.zsh\n'}
+[0.248189] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/local_setup.dsv\n'}
+[0.248363] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Installing: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/package.dsv\n'}
+[0.248521] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/ament_index/resource_index/packages/acg_resources_panda_moveit_config\n'}
+[0.248671] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/cmake/acg_resources_panda_moveit_configConfig.cmake\n'}
+[0.248822] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/cmake/acg_resources_panda_moveit_configConfig-version.cmake\n'}
+[0.248971] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/package.xml\n'}
+[0.249246] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/launch\n'}
+[0.249368] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/launch/rsp.launch.py\n'}
+[0.249499] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/launch/warehouse_db.launch.py\n'}
+[0.249690] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/launch/moveit_gazebo_ros2_control_demo.launch.py\n'}
+[0.250140] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/launch/spawn_controllers.launch.py\n'}
+[0.251305] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/launch/ros2_control_demo.launch.py\n'}
+[0.251711] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/launch/demo.launch.py\n'}
+[0.251937] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/launch/setup_assistant.launch.py\n'}
+[0.252142] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/launch/gazebo_impedance_controller.launch.py\n'}
+[0.252297] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[0.252435] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/launch/gazebo_ros2_control_demo.launch.py\n'}
+[0.252611] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/launch/move_group.launch.py\n'}
+[0.252801] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/launch/moveit_gazebo_impedance_controller.launch.py\n'}
+[0.253350] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/launch/moveit_rviz.launch.py\n'}
+[0.253670] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config\n'}
+[0.253860] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/panda.urdf.xacro\n'}
+[0.254121] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/ros2_controllers.yaml\n'}
+[0.254437] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/panda_impedance_world.sdf\n'}
+[0.254608] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/initial_positions.yaml\n'}
+[0.254867] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/planning_demo.rviz\n'}
+[0.255201] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[0.255501] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/initial_velocities.yaml\n'}
+[0.256523] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/panda.ros2_control.xacro\n'}
+[0.256858] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/ros2_control_demo.rviz\n'}
+[0.257013] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/moveit.rviz\n'}
+[0.257271] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/impedance_configuration.config\n'}
+[0.257566] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/panda.srdf\n'}
+[0.257715] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/ompl_planning.yaml\n'}
+[0.257958] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/kinematics.yaml\n'}
+[0.258232] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/initial_efforts.yaml\n'}
+[0.258400] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/moveit_controllers.yaml\n'}
+[0.258648] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/cartesian_impedance_tuning.rviz\n'}
+[0.258884] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/config/joint_limits.yaml\n'}
+[0.259041] (acg_resources_panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config/share/acg_resources_panda_moveit_config/.setup_assistant\n'}
+[0.259286] (acg_resources_panda_moveit_config) CommandEnded: {'returncode': 0}
+[0.286191] (acg_resources_panda_moveit_config) JobEnded: {'identifier': 'acg_resources_panda_moveit_config', 'rc': 0}
+[0.299594] (-) TimerEvent: {}
+[0.335843] (cartesian_control_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.353454] (cartesian_control_msgs) StdoutLine: {'line': b'writing cartesian_control_msgs.egg-info/PKG-INFO\n'}
+[0.353892] (cartesian_control_msgs) StdoutLine: {'line': b'writing dependency_links to cartesian_control_msgs.egg-info/dependency_links.txt\n'}
+[0.354213] (cartesian_control_msgs) StdoutLine: {'line': b'writing top-level names to cartesian_control_msgs.egg-info/top_level.txt\n'}
+[0.399659] (-) TimerEvent: {}
+[0.404317] (cartesian_control_msgs) StdoutLine: {'line': b"reading manifest file 'cartesian_control_msgs.egg-info/SOURCES.txt'\n"}
+[0.404964] (cartesian_control_msgs) StdoutLine: {'line': b"writing manifest file 'cartesian_control_msgs.egg-info/SOURCES.txt'\n"}
+[0.425873] (cartesian_control_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_cartesian_control_msgs_egg\n'}
+[0.439283] (cartesian_control_msgs) CommandEnded: {'returncode': 0}
+[0.499954] (-) TimerEvent: {}
+[0.561055] (cartesian_control_msgs) JobProgress: {'identifier': 'cartesian_control_msgs', 'progress': 'install'}
+[0.561951] (cartesian_control_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/beniamino/ros2_ws/build/cartesian_control_msgs'], 'cwd': '/home/beniamino/ros2_ws/build/cartesian_control_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'beniamino'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/beniamino/ros2_ws/install/panda_impedance_controller/lib:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib:/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/beniamino'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5392'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/beniamino/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'beniamino'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'beniamino'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/beniamino/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/beniamino-TUF-Gaming-FX505GE-FX505GE:@/tmp/.ICE-unix/1990,unix/beniamino-TUF-Gaming-FX505GE-FX505GE:/tmp/.ICE-unix/1990'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7228cda_d3bc_44e5_acfe_48b1c97cfad6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WGWOT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.169'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/beniamino/ros2_ws/build/cartesian_control_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble')]), 'shell': False}
+[0.574365] (cartesian_control_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.574730] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/ament_index/resource_index/rosidl_interfaces/cartesian_control_msgs\n'}
+[0.574906] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs\n'}
+[0.574975] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action\n'}
+[0.575061] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/follow_cartesian_trajectory.h\n'}
+[0.575163] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail\n'}
+[0.575222] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__type_support.h\n'}
+[0.575353] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__functions.h\n'}
+[0.575437] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__struct.h\n'}
+[0.575512] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__functions.c\n'}
+[0.575570] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg\n'}
+[0.575660] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.575728] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/library_path.sh\n'}
+[0.575788] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/library_path.dsv\n'}
+[0.575847] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_generator_c.so\n'}
+[0.575905] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs\n'}
+[0.575995] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action\n'}
+[0.576115] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail\n'}
+[0.576240] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__rosidl_typesupport_fastrtps_c.h\n'}
+[0.576327] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg\n'}
+[0.576397] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.576465] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.576601] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs\n'}
+[0.576692] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action\n'}
+[0.576795] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail\n'}
+[0.576901] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__builder.hpp\n'}
+[0.577031] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__struct.hpp\n'}
+[0.577256] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__traits.hpp\n'}
+[0.577352] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/follow_cartesian_trajectory.hpp\n'}
+[0.577424] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs\n'}
+[0.577482] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action\n'}
+[0.577556] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail\n'}
+[0.577608] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/dds_fastrtps\n'}
+[0.577660] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.577718] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg\n'}
+[0.577793] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.577848] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.577968] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs\n'}
+[0.578087] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action\n'}
+[0.578167] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail\n'}
+[0.578243] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__type_support.c\n'}
+[0.578321] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__rosidl_typesupport_introspection_c.h\n'}
+[0.578379] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg\n'}
+[0.578458] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.578672] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.579290] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_typesupport_c.so\n'}
+[0.579784] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs\n'}
+[0.580013] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action\n'}
+[0.580212] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail\n'}
+[0.580300] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.580376] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/include/cartesian_control_msgs/cartesian_control_msgs/action/detail/follow_cartesian_trajectory__type_support.cpp\n'}
+[0.581189] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.581591] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_typesupport_cpp.so\n'}
+[0.581844] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/pythonpath.sh\n'}
+[0.582059] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/pythonpath.dsv\n'}
+[0.582190] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs-0.0.1-py3.10.egg-info\n'}
+[0.582283] (cartesian_control_msgs) StdoutLine: {'line': b'-- Installing: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[0.582487] (cartesian_control_msgs) StdoutLine: {'line': b'-- Installing: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[0.582735] (cartesian_control_msgs) StdoutLine: {'line': b'-- Installing: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[0.582909] (cartesian_control_msgs) StdoutLine: {'line': b'-- Installing: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[0.583155] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs\n'}
+[0.583527] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/_cartesian_control_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.583710] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/_cartesian_control_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.583854] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/libcartesian_control_msgs__rosidl_generator_py.so\n'}
+[0.583951] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/action\n'}
+[0.584041] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/action/_follow_cartesian_trajectory.py\n'}
+[0.584179] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/action/__init__.py\n'}
+[0.584284] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/action/_follow_cartesian_trajectory_s.c\n'}
+[0.584386] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/cartesian_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.584520] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/cartesian_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.584623] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/__init__.py\n'}
+[0.584726] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/cartesian_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.584842] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/_cartesian_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.600034] (-) TimerEvent: {}
+[0.628344] (cartesian_control_msgs) StdoutLine: {'line': b"Listing '/home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs'...\n"}
+[0.628595] (cartesian_control_msgs) StdoutLine: {'line': b"Listing '/home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/action'...\n"}
+[0.634032] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/cartesian_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.634331] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/cartesian_control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.634656] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages/cartesian_control_msgs/cartesian_control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.634978] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/lib/libcartesian_control_msgs__rosidl_generator_py.so\n'}
+[0.635161] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/action/FollowCartesianTrajectory.idl\n'}
+[0.635279] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/action/FollowCartesianTrajectory.action\n'}
+[0.635346] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/ament_index/resource_index/package_run_dependencies/cartesian_control_msgs\n'}
+[0.635494] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/ament_index/resource_index/parent_prefix_path/cartesian_control_msgs\n'}
+[0.635583] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/ament_prefix_path.sh\n'}
+[0.635731] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/ament_prefix_path.dsv\n'}
+[0.635831] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/path.sh\n'}
+[0.635904] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/environment/path.dsv\n'}
+[0.635964] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/local_setup.bash\n'}
+[0.636021] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/local_setup.sh\n'}
+[0.636084] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/local_setup.zsh\n'}
+[0.636198] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/local_setup.dsv\n'}
+[0.636254] (cartesian_control_msgs) StdoutLine: {'line': b'-- Installing: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/package.dsv\n'}
+[0.636311] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/ament_index/resource_index/packages/cartesian_control_msgs\n'}
+[0.636366] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_generator_cExport.cmake\n'}
+[0.636422] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.636478] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.636533] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.636589] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.636645] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.636765] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.636831] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.636887] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.636942] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.636997] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.637053] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.637204] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.637272] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.637322] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.637373] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.637427] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/export_cartesian_control_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.637479] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.637528] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.637578] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.637629] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.637679] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.637728] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.637778] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.637828] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgsConfig.cmake\n'}
+[0.637877] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/cmake/cartesian_control_msgsConfig-version.cmake\n'}
+[0.637927] (cartesian_control_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/cartesian_control_msgs/share/cartesian_control_msgs/package.xml\n'}
+[0.639197] (cartesian_control_msgs) CommandEnded: {'returncode': 0}
+[0.700154] (-) TimerEvent: {}
+[0.713180] (cartesian_control_msgs) JobEnded: {'identifier': 'cartesian_control_msgs', 'rc': 0}
+[0.713767] (panda_moveit_planning_demo) JobStarted: {'identifier': 'panda_moveit_planning_demo'}
+[0.722137] (panda_moveit_planning_demo) JobProgress: {'identifier': 'panda_moveit_planning_demo', 'progress': 'cmake'}
+[0.723633] (panda_moveit_planning_demo) JobProgress: {'identifier': 'panda_moveit_planning_demo', 'progress': 'build'}
+[0.723870] (panda_moveit_planning_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/beniamino/ros2_ws/build/panda_moveit_planning_demo', '--', '-j12', '-l12'], 'cwd': '/home/beniamino/ros2_ws/build/panda_moveit_planning_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'beniamino'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib:/home/beniamino/ros2_ws/install/panda_impedance_controller/lib:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/beniamino'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5392'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/beniamino/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'beniamino'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'beniamino'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/beniamino/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/beniamino-TUF-Gaming-FX505GE-FX505GE:@/tmp/.ICE-unix/1990,unix/beniamino-TUF-Gaming-FX505GE-FX505GE:/tmp/.ICE-unix/1990'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7228cda_d3bc_44e5_acfe_48b1c97cfad6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WGWOT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.169'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/beniamino/ros2_ws/build/panda_moveit_planning_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble')]), 'shell': False}
+[0.767204] (panda_moveit_planning_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bag_file_utils\x1b[0m\n'}
+[0.767902] (panda_moveit_planning_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_utils\x1b[0m\n'}
+[0.776713] (panda_moveit_planning_demo) StdoutLine: {'line': b'[  9%] Built target task_space_client_utils_parameters\n'}
+[0.786030] (panda_moveit_planning_demo) StdoutLine: {'line': b'[ 27%] Built target bag_file_utils\n'}
+[0.787348] (panda_moveit_planning_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target task_space_client_utils\x1b[0m\n'}
+[0.797742] (panda_moveit_planning_demo) StdoutLine: {'line': b'[ 45%] Built target moveit_utils\n'}
+[0.800307] (-) TimerEvent: {}
+[0.812675] (panda_moveit_planning_demo) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/task_space_client_utils.dir/src/task_space_client_utils.cpp.o\x1b[0m\n'}
+[0.900423] (-) TimerEvent: {}
+[1.000709] (-) TimerEvent: {}
+[1.100979] (-) TimerEvent: {}
+[1.201254] (-) TimerEvent: {}
+[1.301511] (-) TimerEvent: {}
+[1.401781] (-) TimerEvent: {}
+[1.502135] (-) TimerEvent: {}
+[1.602405] (-) TimerEvent: {}
+[1.702698] (-) TimerEvent: {}
+[1.802967] (-) TimerEvent: {}
+[1.903245] (-) TimerEvent: {}
+[2.003518] (-) TimerEvent: {}
+[2.103809] (-) TimerEvent: {}
+[2.204109] (-) TimerEvent: {}
+[2.304408] (-) TimerEvent: {}
+[2.404698] (-) TimerEvent: {}
+[2.504992] (-) TimerEvent: {}
+[2.605302] (-) TimerEvent: {}
+[2.705598] (-) TimerEvent: {}
+[2.805885] (-) TimerEvent: {}
+[2.906162] (-) TimerEvent: {}
+[3.006430] (-) TimerEvent: {}
+[3.106697] (-) TimerEvent: {}
+[3.206969] (-) TimerEvent: {}
+[3.307250] (-) TimerEvent: {}
+[3.407523] (-) TimerEvent: {}
+[3.507838] (-) TimerEvent: {}
+[3.608133] (-) TimerEvent: {}
+[3.708397] (-) TimerEvent: {}
+[3.808663] (-) TimerEvent: {}
+[3.908926] (-) TimerEvent: {}
+[4.009224] (-) TimerEvent: {}
+[4.109475] (-) TimerEvent: {}
+[4.209766] (-) TimerEvent: {}
+[4.310034] (-) TimerEvent: {}
+[4.410285] (-) TimerEvent: {}
+[4.510536] (-) TimerEvent: {}
+[4.610810] (-) TimerEvent: {}
+[4.711078] (-) TimerEvent: {}
+[4.811390] (-) TimerEvent: {}
+[4.911694] (-) TimerEvent: {}
+[5.011938] (-) TimerEvent: {}
+[5.112220] (-) TimerEvent: {}
+[5.212538] (-) TimerEvent: {}
+[5.313025] (-) TimerEvent: {}
+[5.413702] (-) TimerEvent: {}
+[5.514616] (-) TimerEvent: {}
+[5.615172] (-) TimerEvent: {}
+[5.715859] (-) TimerEvent: {}
+[5.816388] (-) TimerEvent: {}
+[5.917235] (-) TimerEvent: {}
+[6.017542] (-) TimerEvent: {}
+[6.117877] (-) TimerEvent: {}
+[6.218136] (-) TimerEvent: {}
+[6.318446] (-) TimerEvent: {}
+[6.418769] (-) TimerEvent: {}
+[6.519063] (-) TimerEvent: {}
+[6.619417] (-) TimerEvent: {}
+[6.719924] (-) TimerEvent: {}
+[6.820487] (-) TimerEvent: {}
+[6.920739] (-) TimerEvent: {}
+[7.021065] (-) TimerEvent: {}
+[7.121442] (-) TimerEvent: {}
+[7.221808] (-) TimerEvent: {}
+[7.322279] (-) TimerEvent: {}
+[7.422616] (-) TimerEvent: {}
+[7.523322] (-) TimerEvent: {}
+[7.623589] (-) TimerEvent: {}
+[7.723871] (-) TimerEvent: {}
+[7.824217] (-) TimerEvent: {}
+[7.925132] (-) TimerEvent: {}
+[8.025561] (-) TimerEvent: {}
+[8.126431] (-) TimerEvent: {}
+[8.226931] (-) TimerEvent: {}
+[8.327442] (-) TimerEvent: {}
+[8.427809] (-) TimerEvent: {}
+[8.528135] (-) TimerEvent: {}
+[8.628520] (-) TimerEvent: {}
+[8.729034] (-) TimerEvent: {}
+[8.829511] (-) TimerEvent: {}
+[8.930319] (-) TimerEvent: {}
+[9.030746] (-) TimerEvent: {}
+[9.131163] (-) TimerEvent: {}
+[9.231812] (-) TimerEvent: {}
+[9.332359] (-) TimerEvent: {}
+[9.433214] (-) TimerEvent: {}
+[9.534207] (-) TimerEvent: {}
+[9.634937] (-) TimerEvent: {}
+[9.735849] (-) TimerEvent: {}
+[9.836853] (-) TimerEvent: {}
+[9.937462] (-) TimerEvent: {}
+[10.037855] (-) TimerEvent: {}
+[10.138423] (-) TimerEvent: {}
+[10.239282] (-) TimerEvent: {}
+[10.340239] (-) TimerEvent: {}
+[10.440663] (-) TimerEvent: {}
+[10.541440] (-) TimerEvent: {}
+[10.642305] (-) TimerEvent: {}
+[10.742769] (-) TimerEvent: {}
+[10.843816] (-) TimerEvent: {}
+[10.944264] (-) TimerEvent: {}
+[11.044861] (-) TimerEvent: {}
+[11.145564] (-) TimerEvent: {}
+[11.246269] (-) TimerEvent: {}
+[11.347088] (-) TimerEvent: {}
+[11.447692] (-) TimerEvent: {}
+[11.548534] (-) TimerEvent: {}
+[11.648996] (-) TimerEvent: {}
+[11.750119] (-) TimerEvent: {}
+[11.850677] (-) TimerEvent: {}
+[11.951199] (-) TimerEvent: {}
+[12.051828] (-) TimerEvent: {}
+[12.152731] (-) TimerEvent: {}
+[12.253691] (-) TimerEvent: {}
+[12.354510] (-) TimerEvent: {}
+[12.455474] (-) TimerEvent: {}
+[12.556412] (-) TimerEvent: {}
+[12.657066] (-) TimerEvent: {}
+[12.757836] (-) TimerEvent: {}
+[12.858277] (-) TimerEvent: {}
+[12.958862] (-) TimerEvent: {}
+[13.059887] (-) TimerEvent: {}
+[13.160892] (-) TimerEvent: {}
+[13.262182] (-) TimerEvent: {}
+[13.362983] (-) TimerEvent: {}
+[13.463694] (-) TimerEvent: {}
+[13.564449] (-) TimerEvent: {}
+[13.665783] (-) TimerEvent: {}
+[13.766514] (-) TimerEvent: {}
+[13.866993] (-) TimerEvent: {}
+[13.967474] (-) TimerEvent: {}
+[14.068016] (-) TimerEvent: {}
+[14.168790] (-) TimerEvent: {}
+[14.269775] (-) TimerEvent: {}
+[14.370722] (-) TimerEvent: {}
+[14.471712] (-) TimerEvent: {}
+[14.572671] (-) TimerEvent: {}
+[14.673426] (-) TimerEvent: {}
+[14.774487] (-) TimerEvent: {}
+[14.875404] (-) TimerEvent: {}
+[14.976294] (-) TimerEvent: {}
+[15.076769] (-) TimerEvent: {}
+[15.177563] (-) TimerEvent: {}
+[15.278014] (-) TimerEvent: {}
+[15.378833] (-) TimerEvent: {}
+[15.479549] (-) TimerEvent: {}
+[15.673588] (-) TimerEvent: {}
+[15.773921] (-) TimerEvent: {}
+[15.874462] (-) TimerEvent: {}
+[15.975481] (-) TimerEvent: {}
+[16.076357] (-) TimerEvent: {}
+[16.177223] (-) TimerEvent: {}
+[16.278436] (-) TimerEvent: {}
+[16.379163] (-) TimerEvent: {}
+[16.479932] (-) TimerEvent: {}
+[16.580867] (-) TimerEvent: {}
+[16.681546] (-) TimerEvent: {}
+[16.782367] (-) TimerEvent: {}
+[16.883333] (-) TimerEvent: {}
+[16.984215] (-) TimerEvent: {}
+[17.084786] (-) TimerEvent: {}
+[17.185615] (-) TimerEvent: {}
+[17.287653] (-) TimerEvent: {}
+[17.388617] (-) TimerEvent: {}
+[17.489695] (-) TimerEvent: {}
+[17.590744] (-) TimerEvent: {}
+[17.691471] (-) TimerEvent: {}
+[17.792402] (-) TimerEvent: {}
+[17.893743] (-) TimerEvent: {}
+[17.995217] (-) TimerEvent: {}
+[18.096164] (-) TimerEvent: {}
+[18.197277] (-) TimerEvent: {}
+[18.297971] (-) TimerEvent: {}
+[18.399129] (-) TimerEvent: {}
+[18.499625] (-) TimerEvent: {}
+[18.600608] (-) TimerEvent: {}
+[18.701370] (-) TimerEvent: {}
+[18.802045] (-) TimerEvent: {}
+[18.903026] (-) TimerEvent: {}
+[19.003709] (-) TimerEvent: {}
+[19.104551] (-) TimerEvent: {}
+[19.205421] (-) TimerEvent: {}
+[19.306515] (-) TimerEvent: {}
+[19.406949] (-) TimerEvent: {}
+[19.507494] (-) TimerEvent: {}
+[19.608975] (-) TimerEvent: {}
+[19.710485] (-) TimerEvent: {}
+[19.811252] (-) TimerEvent: {}
+[19.911915] (-) TimerEvent: {}
+[20.012597] (-) TimerEvent: {}
+[20.112979] (-) TimerEvent: {}
+[20.213718] (-) TimerEvent: {}
+[20.314400] (-) TimerEvent: {}
+[20.415106] (-) TimerEvent: {}
+[20.515906] (-) TimerEvent: {}
+[20.616368] (-) TimerEvent: {}
+[20.716925] (-) TimerEvent: {}
+[20.817565] (-) TimerEvent: {}
+[20.918558] (-) TimerEvent: {}
+[21.019712] (-) TimerEvent: {}
+[21.120501] (-) TimerEvent: {}
+[21.197453] (panda_moveit_planning_demo) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX static library libtask_space_client_utils.a\x1b[0m\n'}
+[21.220737] (-) TimerEvent: {}
+[21.321322] (-) TimerEvent: {}
+[21.421794] (-) TimerEvent: {}
+[21.522492] (-) TimerEvent: {}
+[21.541345] (panda_moveit_planning_demo) StdoutLine: {'line': b'[ 63%] Built target task_space_client_utils\n'}
+[21.571945] (panda_moveit_planning_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target panda_moveit_planning_node\x1b[0m\n'}
+[21.572737] (panda_moveit_planning_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target panda_moveit_cartesian_demo\x1b[0m\n'}
+[21.622670] (-) TimerEvent: {}
+[21.632284] (panda_moveit_planning_demo) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable panda_moveit_planning_node\x1b[0m\n'}
+[21.642398] (panda_moveit_planning_demo) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable panda_moveit_cartesian_demo\x1b[0m\n'}
+[21.722843] (-) TimerEvent: {}
+[21.823512] (-) TimerEvent: {}
+[21.924423] (-) TimerEvent: {}
+[22.024907] (-) TimerEvent: {}
+[22.127366] (-) TimerEvent: {}
+[22.228824] (-) TimerEvent: {}
+[22.330045] (-) TimerEvent: {}
+[22.431268] (-) TimerEvent: {}
+[22.532904] (-) TimerEvent: {}
+[22.635334] (-) TimerEvent: {}
+[22.736713] (-) TimerEvent: {}
+[22.837755] (-) TimerEvent: {}
+[22.939050] (-) TimerEvent: {}
+[23.043466] (-) TimerEvent: {}
+[23.144966] (-) TimerEvent: {}
+[23.247122] (-) TimerEvent: {}
+[23.348518] (-) TimerEvent: {}
+[23.449443] (-) TimerEvent: {}
+[23.550487] (-) TimerEvent: {}
+[23.651917] (-) TimerEvent: {}
+[23.754651] (-) TimerEvent: {}
+[23.855904] (-) TimerEvent: {}
+[23.957384] (-) TimerEvent: {}
+[24.058550] (-) TimerEvent: {}
+[24.159791] (-) TimerEvent: {}
+[24.261285] (-) TimerEvent: {}
+[24.362800] (-) TimerEvent: {}
+[24.463670] (-) TimerEvent: {}
+[24.564793] (-) TimerEvent: {}
+[24.666936] (-) TimerEvent: {}
+[24.768101] (-) TimerEvent: {}
+[24.869570] (-) TimerEvent: {}
+[24.970900] (-) TimerEvent: {}
+[25.072203] (-) TimerEvent: {}
+[25.173041] (-) TimerEvent: {}
+[25.274715] (-) TimerEvent: {}
+[25.375370] (-) TimerEvent: {}
+[25.476063] (-) TimerEvent: {}
+[25.577030] (-) TimerEvent: {}
+[25.678502] (-) TimerEvent: {}
+[25.779675] (-) TimerEvent: {}
+[25.881141] (-) TimerEvent: {}
+[25.981755] (-) TimerEvent: {}
+[26.043469] (panda_moveit_planning_demo) StdoutLine: {'line': b'[ 90%] Built target panda_moveit_planning_node\n'}
+[26.082193] (-) TimerEvent: {}
+[26.183495] (-) TimerEvent: {}
+[26.284191] (-) TimerEvent: {}
+[26.385280] (-) TimerEvent: {}
+[26.485985] (-) TimerEvent: {}
+[26.586971] (-) TimerEvent: {}
+[26.687919] (-) TimerEvent: {}
+[26.788405] (-) TimerEvent: {}
+[26.889233] (-) TimerEvent: {}
+[26.990130] (-) TimerEvent: {}
+[27.090852] (-) TimerEvent: {}
+[27.191492] (-) TimerEvent: {}
+[27.292186] (-) TimerEvent: {}
+[27.392612] (-) TimerEvent: {}
+[27.493297] (-) TimerEvent: {}
+[27.593747] (-) TimerEvent: {}
+[27.694423] (-) TimerEvent: {}
+[27.795024] (-) TimerEvent: {}
+[27.895835] (-) TimerEvent: {}
+[27.996516] (-) TimerEvent: {}
+[28.096959] (-) TimerEvent: {}
+[28.197892] (-) TimerEvent: {}
+[28.298764] (-) TimerEvent: {}
+[28.399797] (-) TimerEvent: {}
+[28.500581] (-) TimerEvent: {}
+[28.601051] (-) TimerEvent: {}
+[28.701871] (-) TimerEvent: {}
+[28.802663] (-) TimerEvent: {}
+[28.903503] (-) TimerEvent: {}
+[29.004356] (-) TimerEvent: {}
+[29.105029] (-) TimerEvent: {}
+[29.205859] (-) TimerEvent: {}
+[29.306899] (-) TimerEvent: {}
+[29.359125] (panda_moveit_planning_demo) StdoutLine: {'line': b'[100%] Built target panda_moveit_cartesian_demo\n'}
+[29.387637] (panda_moveit_planning_demo) CommandEnded: {'returncode': 0}
+[29.407063] (-) TimerEvent: {}
+[29.488337] (panda_moveit_planning_demo) JobProgress: {'identifier': 'panda_moveit_planning_demo', 'progress': 'install'}
+[29.489133] (panda_moveit_planning_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/beniamino/ros2_ws/build/panda_moveit_planning_demo'], 'cwd': '/home/beniamino/ros2_ws/build/panda_moveit_planning_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'beniamino'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib:/home/beniamino/ros2_ws/install/panda_impedance_controller/lib:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/beniamino'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5392'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/beniamino/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'beniamino'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'beniamino'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/beniamino/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/beniamino-TUF-Gaming-FX505GE-FX505GE:@/tmp/.ICE-unix/1990,unix/beniamino-TUF-Gaming-FX505GE-FX505GE:/tmp/.ICE-unix/1990'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7228cda_d3bc_44e5_acfe_48b1c97cfad6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WGWOT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.169'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/beniamino/ros2_ws/build/panda_moveit_planning_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble')]), 'shell': False}
+[29.507285] (-) TimerEvent: {}
+[29.513680] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.514065] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/include/task_space_client_utils_parameters\n'}
+[29.514206] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/include/task_space_client_utils_parameters/task_space_client_utils_parameters.hpp\n'}
+[29.514406] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Installing: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/lib/panda_moveit_planning_demo/panda_moveit_planning_node\n'}
+[29.516727] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/beniamino/ros2_ws/install/panda_moveit_planning_demo/lib/panda_moveit_planning_demo/panda_moveit_planning_node" to ""\n'}
+[29.517205] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Installing: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/lib/panda_moveit_planning_demo/panda_moveit_cartesian_demo\n'}
+[29.533008] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/beniamino/ros2_ws/install/panda_moveit_planning_demo/lib/panda_moveit_planning_demo/panda_moveit_cartesian_demo" to ""\n'}
+[29.534359] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/lib/panda_moveit_planning_demo/libmoveit_utils.a\n'}
+[29.534830] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/lib/panda_moveit_planning_demo/libbag_file_utils.a\n'}
+[29.535038] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Installing: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/lib/panda_moveit_planning_demo/libtask_space_client_utils.a\n'}
+[29.547040] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/launch\n'}
+[29.548740] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/launch/panda_moveit_planning_node.launch.py\n'}
+[29.549433] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/launch/demo.launch.py\n'}
+[29.549723] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/launch/panda_moveit_cartesian_demo.launch.py\n'}
+[29.549924] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/include/panda_moveit_planning_demo\n'}
+[29.550236] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/include/panda_moveit_planning_demo/task_space_client_utils.hpp\n'}
+[29.550535] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/include/panda_moveit_planning_demo/moveit_utils.hpp\n'}
+[29.550724] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/include/panda_moveit_planning_demo/bag_file_utils.hpp\n'}
+[29.550887] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/launch\n'}
+[29.551248] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/launch/panda_moveit_planning_node.launch.py\n'}
+[29.551689] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/launch/demo.launch.py\n'}
+[29.551889] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/launch/panda_moveit_cartesian_demo.launch.py\n'}
+[29.552223] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/ament_index/resource_index/package_run_dependencies/panda_moveit_planning_demo\n'}
+[29.552394] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/ament_index/resource_index/parent_prefix_path/panda_moveit_planning_demo\n'}
+[29.552708] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/environment/ament_prefix_path.sh\n'}
+[29.552842] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/environment/ament_prefix_path.dsv\n'}
+[29.553004] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/environment/path.sh\n'}
+[29.553184] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/environment/path.dsv\n'}
+[29.553285] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/local_setup.bash\n'}
+[29.553371] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/local_setup.sh\n'}
+[29.553471] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/local_setup.zsh\n'}
+[29.553589] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/local_setup.dsv\n'}
+[29.553703] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Installing: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/package.dsv\n'}
+[29.553826] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/ament_index/resource_index/packages/panda_moveit_planning_demo\n'}
+[29.553956] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.554103] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/cmake/panda_moveit_planning_demoConfig.cmake\n'}
+[29.554268] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/cmake/panda_moveit_planning_demoConfig-version.cmake\n'}
+[29.554415] (panda_moveit_planning_demo) StdoutLine: {'line': b'-- Up-to-date: /home/beniamino/ros2_ws/install/panda_moveit_planning_demo/share/panda_moveit_planning_demo/package.xml\n'}
+[29.560056] (panda_moveit_planning_demo) CommandEnded: {'returncode': 0}
+[29.607456] (-) TimerEvent: {}
+[29.692858] (panda_moveit_planning_demo) JobEnded: {'identifier': 'panda_moveit_planning_demo', 'rc': 0}
+[29.694012] (-) EventReactorShutdown: {}

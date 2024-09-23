@@ -1,0 +1,19 @@
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:211:40:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kconst std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > > generate_waypoints(std::shared_ptr<geometry_msgs::msg::PoseArray_<std::allocator<void> > >, moveit::planning_interface::MoveGroupInterface*, const rclcpp::Logger&)[m[K’
+  211 |     auto waypoints = [01;31m[Kgenerate_waypoints(cartesian_path_poses, &move_group_interface)[m[K;  // Pass the address of move_group_interface
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:46:45:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 | const std::vector<geometry_msgs::msg::Pose> [01;36m[Kgenerate_waypoints[m[K(
+      |                                             [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:224:80:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<geometry_msgs::msg::PoseArray_<std::allocator<void> > >[m[K’ to ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >[m[K’
+  224 |     auto [fraction, cartesian_plan] = planning_node->cartesian_path_generation([01;31m[Kcartesian_path_poses[m[K, &logger, &move_group_interface);  // Generate a Cartesian path
+      |                                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                [01;31m[K|[m[K
+      |                                                                                [01;31m[Kstd::shared_ptr<geometry_msgs::msg::PoseArray_<std::allocator<void> > >[m[K
+In file included from [01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:13[m[K:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/include/task_space_client_utils.hpp:96:141:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::pair<double, moveit::planning_interface::MoveGroupInterface::Plan> task_space_client_utils::TaskSpaceClient::cartesian_path_generation(std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >, const rclcpp::Logger*, moveit::planning_interface::MoveGroupInterface*)[m[K’
+   96 |     std::pair<double, moveit::planning_interface::MoveGroupInterface::Plan> cartesian_path_generation([01;36m[Kstd::vector<geometry_msgs::msg::Pose> waypoints[m[K, const rclcpp::Logger *logger, moveit::planning_interface::MoveGroupInterface *move_group_interface/*, moveit_msgs::msg::Constraints &constraints*/);
+      |                                                                                                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/panda_moveit_cartesian_demo.dir/build.make:76: CMakeFiles/panda_moveit_cartesian_demo.dir/src/panda_moveit_cartesian_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:285: CMakeFiles/panda_moveit_cartesian_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

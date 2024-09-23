@@ -1,0 +1,11 @@
+[  7%] Built target task_space_client_utils_parameters
+[ 23%] Built target bag_file_utils
+[ 38%] Built target moveit_utils
+[ 53%] Built target task_space_client_utils
+[35m[1mConsolidate compiler generated dependencies of target panda_moveit_cartesian_demo_nobag[0m
+[35m[1mConsolidate compiler generated dependencies of target panda_moveit_cartesian_demo[0m
+[ 69%] Built target panda_moveit_planning_node
+[ 76%] [32mBuilding CXX object CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/src/panda_moveit_cartesian_demo_nobag.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/panda_moveit_cartesian_demo.dir/src/panda_moveit_cartesian_demo.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable panda_moveit_cartesian_demo[0m
+[ 92%] Built target panda_moveit_cartesian_demo

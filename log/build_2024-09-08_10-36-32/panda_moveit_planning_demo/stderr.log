@@ -1,0 +1,60 @@
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:94:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   94 |     moveit_visual_tools[01;31m[K.[m[KdeleteAllMarkers();  // Delete all markers in RViz
+      |                        [01;31m[K^[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:95:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   95 |     moveit_visual_tools[01;31m[K.[m[Kprompt("Press 'Next' in the RvizVisualToolsGui window to plan a Cartesian path");  // Prompt the user in RViz to plan a Cartesian path
+      |                        [01;31m[K^[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:96:35:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+   96 |     draw_title(moveit_visual_tools[01;31m[K,[m[K "Planning cartesian path");  // Draw "Planning cartesian path" title in RViz
+      |                                   [01;31m[K^[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:98:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kcartesian_path_poses[m[K’ was not declared in this scope
+   98 |     auto waypoints = generate_waypoints([01;31m[Kcartesian_path_poses[m[K, &move_group_interface);  // Pass the address of move_group_interface
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:98:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+   98 |     auto waypoints = generate_waypoints(cartesian_path_poses, &[01;31m[Kmove_group_interface[m[K);  // Pass the address of move_group_interface
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:98:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kgenerate_waypoints[m[K’ was not declared in this scope
+   98 |     auto waypoints = [01;31m[Kgenerate_waypoints[m[K(cartesian_path_poses, &move_group_interface);  // Pass the address of move_group_interface
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:108:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess[m[K’ was not declared in this scope; did you mean ‘[01m[Keaccess[m[K’?
+  108 |     [01;31m[Ksuccess[m[K = fraction == 1.0;  // Check if the fraction of the planned path is 1.0 (complete path planned)
+      |     [01;31m[K^~~~~~~[m[K
+      |     [32m[Keaccess[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:109:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+  109 |     display_planned_trajectory(moveit_visual_tools[01;31m[K,[m[K move_group_interface, planning_group, cartesian_plan.trajectory_);  // Display the planned Cartesian trajectory in RViz
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:109:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_group[m[K’ was not declared in this scope; did you mean ‘[01m[Kplanning_node[m[K’?
+  109 |     display_planned_trajectory(moveit_visual_tools, move_group_interface, [01;31m[Kplanning_group[m[K, cartesian_plan.trajectory_);  // Display the planned Cartesian trajectory in RViz
+      |                                                                           [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                                           [32m[Kplanning_node[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:112:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+  112 |         draw_title(moveit_visual_tools[01;31m[K,[m[K "Planning Failed!");  // Draw "Planning Failed!" title in RViz
+      |                                       [01;31m[K^[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:118:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanned_trajectory[m[K’ was not declared in this scope
+  118 |     [01;31m[Kplanned_trajectory[m[K = planning_node->get_task_space_trajectory(cartesian_plan.trajectory_, robot_state, &logger, end_effector_link_name, base_frame, planning_group);  // Generate a task space trajectory
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:118:95:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ was not declared in this scope
+  118 |     planned_trajectory = planning_node->get_task_space_trajectory(cartesian_plan.trajectory_, [01;31m[Krobot_state[m[K, &logger, end_effector_link_name, base_frame, planning_group);  // Generate a task space trajectory
+      |                                                                                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:118:117:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_effector_link_name[m[K’ was not declared in this scope
+  118 |     planned_trajectory = planning_node->get_task_space_trajectory(cartesian_plan.trajectory_, robot_state, &logger, [01;31m[Kend_effector_link_name[m[K, base_frame, planning_group);  // Generate a task space trajectory
+      |                                                                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:118:141:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_frame[m[K’ was not declared in this scope; did you mean ‘[01m[Kbasename[m[K’?
+  118 |     planned_trajectory = planning_node->get_task_space_trajectory(cartesian_plan.trajectory_, robot_state, &logger, end_effector_link_name, [01;31m[Kbase_frame[m[K, planning_group);  // Generate a task space trajectory
+      |                                                                                                                                             [01;31m[K^~~~~~~~~~[m[K
+      |                                                                                                                                             [32m[Kbasename[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:128:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kbag_file_handler[m[K’ was not declared in this scope; did you mean ‘[01m[Kbag_file_utils[m[K’?
+  128 |         [01;31m[Kbag_file_handler[m[K->write_trajectory(
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kbag_file_utils[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:134:43:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+  134 |     execute_trajectory(moveit_visual_tools[01;31m[K,[m[K planned_trajectory, planning_node);  // Execute the planned trajectory
+      |                                           [01;31m[K^[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:136:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+  136 |     moveit_visual_tools[01;31m[K.[m[KdeleteAllMarkers();  // Delete all markers in RViz
+      |                        [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/build.make:76: CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/src/panda_moveit_cartesian_demo_nobag.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:314: CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,24 @@
+[  9%] Built target task_space_client_utils_parameters
+[ 27%] Built target bag_file_utils
+[ 45%] Built target moveit_utils
+[ 63%] Built target task_space_client_utils
+[35m[1mConsolidate compiler generated dependencies of target panda_moveit_cartesian_demo[0m
+[ 81%] Built target panda_moveit_planning_node
+[ 90%] [32mBuilding CXX object CMakeFiles/panda_moveit_cartesian_demo.dir/src/panda_moveit_cartesian_demo.cpp.o[0m
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:169:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_filename[m[K’ was not declared in this scope; did you mean ‘[01m[Kbase_frame[m[K’?
+  169 |     auto bag_file_handler = std::make_shared<bag_file_utils::BagFileHandler>([01;31m[Kbase_filename[m[K);  // Create a bag file handler for reading/writing bag files
+      |                                                                              [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                              [32m[Kbase_frame[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:272:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto waypoints[m[K’
+  272 |     auto [01;31m[Kwaypoints[m[K = generate_waypoints(cartesian_path_poses);  // Generate waypoints for the Cartesian path
+      |          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:146:43:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > > waypoints[m[K’
+  146 |     std::vector<geometry_msgs::msg::Pose> [01;36m[Kwaypoints[m[K;
+      |                                           [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:272:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kcartesian_path_poses[m[K’ was not declared in this scope
+  272 |     auto waypoints = generate_waypoints([01;31m[Kcartesian_path_poses[m[K);  // Generate waypoints for the Cartesian path
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/panda_moveit_cartesian_demo.dir/build.make:76: CMakeFiles/panda_moveit_cartesian_demo.dir/src/panda_moveit_cartesian_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:283: CMakeFiles/panda_moveit_cartesian_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

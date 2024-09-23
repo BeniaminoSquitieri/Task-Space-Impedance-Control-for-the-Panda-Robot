@@ -1,0 +1,43 @@
+[0.009s] Invoking command in '/home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver': CMAKE_PREFIX_PATH=/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver -- -j12 -l12
+[0.069s] [ 50%] Built target gtest_main
+[0.069s] [ 50%] Built target gtest
+[0.076s] [ 75%] Built target kdl_inverse_dynamics_solver
+[0.098s] [100%] Built target kdl_inverse_dynamics_solver_test
+[0.108s] Invoked command in '/home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver' returned '0': CMAKE_PREFIX_PATH=/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver -- -j12 -l12
+[0.139s] Invoking command in '/home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver': CMAKE_PREFIX_PATH=/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver
+[0.148s] -- Install configuration: ""
+[0.148s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/kdl_inverse_dynamics_solver.xml
+[0.148s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/include
+[0.148s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/include/kdl_inverse_dynamics_solver
+[0.148s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/include/kdl_inverse_dynamics_solver/kdl_inverse_dynamics_solver.h
+[0.148s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/include/kdl_inverse_dynamics_solver/exceptions.h
+[0.148s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib/libkdl_inverse_dynamics_solver.so
+[0.148s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/launch
+[0.148s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/launch/test_kdl_inverse_dynamics_solver.py
+[0.148s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib/kdl_inverse_dynamics_solver/kdl_inverse_dynamics_solver_test
+[0.149s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/environment/library_path.sh
+[0.149s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/environment/library_path.dsv
+[0.149s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver//launch
+[0.149s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver//launch/test_kdl_inverse_dynamics_solver.py
+[0.149s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/ament_index/resource_index/package_run_dependencies/kdl_inverse_dynamics_solver
+[0.149s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/ament_index/resource_index/parent_prefix_path/kdl_inverse_dynamics_solver
+[0.149s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/environment/ament_prefix_path.sh
+[0.149s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/environment/ament_prefix_path.dsv
+[0.149s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/environment/path.sh
+[0.149s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/environment/path.dsv
+[0.149s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/local_setup.bash
+[0.149s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/local_setup.sh
+[0.150s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/local_setup.zsh
+[0.150s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/local_setup.dsv
+[0.150s] -- Installing: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/package.dsv
+[0.150s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/ament_index/resource_index/packages/kdl_inverse_dynamics_solver
+[0.150s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/ament_index/resource_index/inverse_dynamics_solver__pluginlib__plugin/kdl_inverse_dynamics_solver
+[0.150s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/cmake/export_kdl_inverse_dynamics_solverExport.cmake
+[0.150s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/cmake/export_kdl_inverse_dynamics_solverExport-noconfig.cmake
+[0.150s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.150s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/cmake/ament_cmake_export_libraries-extras.cmake
+[0.150s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/cmake/ament_cmake_export_targets-extras.cmake
+[0.150s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/cmake/kdl_inverse_dynamics_solverConfig.cmake
+[0.150s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/cmake/kdl_inverse_dynamics_solverConfig-version.cmake
+[0.150s] -- Up-to-date: /home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/share/kdl_inverse_dynamics_solver/package.xml
+[0.152s] Invoked command in '/home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver' returned '0': CMAKE_PREFIX_PATH=/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/kdl_inverse_dynamics_solver

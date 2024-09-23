@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from cartesian_control_msgs/action/FollowCartesianTrajectory.action
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/CartesianTrajectory.idl"
+#include "moveit_msgs/msg/CartesianTrajectoryPoint.idl"
+#include "std_msgs/msg/Header.idl"
+
+module cartesian_control_msgs {
+  module action {
+    struct FollowCartesianTrajectory_Goal {
+      moveit_msgs::msg::CartesianTrajectory trajectory;
+    };
+    module FollowCartesianTrajectory_Result_Constants {
+      const int32 SUCCESS = 0;
+      const int32 INVALID_GOAL = -1;
+      const int32 REQUESTED_CANCEL = -2;
+      const int32 OLD_HEADER_TIMESTAMP = -3;
+      const int32 INVALID_POSTURE = -4;
+    };
+    struct FollowCartesianTrajectory_Result {
+      boolean success;
+
+      int32 error_code;
+
+      string error_string;
+    };
+    struct FollowCartesianTrajectory_Feedback {
+      std_msgs::msg::Header header;
+
+      string controlled_frame;
+
+      moveit_msgs::msg::CartesianTrajectoryPoint desired;
+
+      moveit_msgs::msg::CartesianTrajectoryPoint actual;
+
+      moveit_msgs::msg::CartesianTrajectoryPoint error;
+    };
+  };
+};

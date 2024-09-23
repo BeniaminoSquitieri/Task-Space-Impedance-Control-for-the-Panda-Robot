@@ -1,0 +1,8 @@
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:[m[K In member function ‘[01m[Kvoid panda_impedance_controller::ImpedanceController::compute_effort(Eigen::VectorXd&, const VectorXd&, const VectorXd&)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:485:66:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[Kclass Eigen::Quaternion<double>[m[K’} has no member named ‘[01m[Kinversre[m[K’; did you mean ‘[01m[Kinverse[m[K’?
+  485 | igen::Quaterniond error_quaternion = actual_ee_orientation_.[01;31m[Kinversre[m[K() * desired_ee_orientation_;
+      |                                                             [01;31m[K^~~~~~~~[m[K
+      |                                                             [32m[Kinverse[m[K
+gmake[2]: *** [CMakeFiles/panda_impedance_controller.dir/build.make:76: CMakeFiles/panda_impedance_controller.dir/src/impedance_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/panda_impedance_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

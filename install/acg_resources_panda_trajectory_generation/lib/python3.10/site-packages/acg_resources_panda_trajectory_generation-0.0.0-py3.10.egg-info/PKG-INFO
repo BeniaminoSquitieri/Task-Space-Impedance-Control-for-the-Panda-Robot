@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: acg_resources_panda_trajectory_generation
+Version: 0.0.0
+Summary: The data_generator_executable.py script is a ROS 2 node developed for generating square trajectories and writing them to rosbag files
+Maintainer: ['Beniamino Squitieri']
+Maintainer-email: ['b.squitieri@studenti.unisa.it']
+License: Apache-2.0
+License-File: LICENSE
+Requires-Dist: setuptools

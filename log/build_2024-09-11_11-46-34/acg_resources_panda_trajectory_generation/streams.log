@@ -1,0 +1,23 @@
+[1.477s] Invoking command in '/home/beniamino/ros2_ws/src/panda_impedance_controller/acg_resources_panda_trajectory_generation': PYTHONPATH=/home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_generation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/acg_resources_panda_trajectory_generation build --build-base /home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_generation/build install --record /home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_generation/install.log --single-version-externally-managed install_data
+[1.739s] running egg_info
+[1.757s] writing ../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info/PKG-INFO
+[1.758s] writing dependency_links to ../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info/dependency_links.txt
+[1.758s] writing entry points to ../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info/entry_points.txt
+[1.758s] writing requirements to ../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info/requires.txt
+[1.758s] writing top-level names to ../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info/top_level.txt
+[1.796s] reading manifest file '../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info/SOURCES.txt'
+[1.796s] adding license file 'LICENSE'
+[1.797s] writing manifest file '../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info/SOURCES.txt'
+[1.797s] running build
+[1.797s] running build_py
+[1.797s] copying acg_resources_panda_trajectory_generation/data_generator_executable.py -> /home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_generation/build/lib/acg_resources_panda_trajectory_generation
+[1.797s] running install
+[1.803s] running install_lib
+[1.823s] running install_data
+[1.823s] running install_egg_info
+[1.843s] removing '/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages/acg_resources_panda_trajectory_generation-0.0.0-py3.10.egg-info' (and everything under it)
+[1.843s] Copying ../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info to /home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages/acg_resources_panda_trajectory_generation-0.0.0-py3.10.egg-info
+[1.844s] running install_scripts
+[2.025s] Installing data_generator_executable script to /home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/acg_resources_panda_trajectory_generation
+[2.025s] writing list of installed files to '/home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_generation/install.log'
+[2.050s] Invoked command in '/home/beniamino/ros2_ws/src/panda_impedance_controller/acg_resources_panda_trajectory_generation' returned '0': PYTHONPATH=/home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_generation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/acg_resources_panda_trajectory_generation build --build-base /home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_generation/build install --record /home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_generation/install.log --single-version-externally-managed install_data

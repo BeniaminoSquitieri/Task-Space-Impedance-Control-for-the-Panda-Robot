@@ -1,0 +1,36 @@
+[  7%] Built target task_space_client_utils_parameters
+[ 23%] Built target bag_file_utils
+[ 38%] Built target moveit_utils
+[ 53%] Built target task_space_client_utils
+[35m[1mConsolidate compiler generated dependencies of target panda_moveit_cartesian_demo_nobag[0m
+[35m[1mConsolidate compiler generated dependencies of target panda_moveit_cartesian_demo[0m
+[ 69%] Built target panda_moveit_planning_node
+[ 76%] [32mBuilding CXX object CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/src/panda_moveit_cartesian_demo_nobag.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/panda_moveit_cartesian_demo.dir/src/panda_moveit_cartesian_demo.cpp.o[0m
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:95:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_frame[m[K’ was not declared in this scope; did you mean ‘[01m[Kbasename[m[K’?
+   95 |     moveit_visual_tools::MoveItVisualTools moveit_visual_tools(planning_node, [01;31m[Kbase_frame[m[K, rviz_visual_tools::RVIZ_MARKER_TOPIC, move_group_interface.getRobotModel());
+      |                                                                               [01;31m[K^~~~~~~~~~[m[K
+      |                                                                               [32m[Kbasename[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:102:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbag_file_handler[m[K’ was not declared in this scope; did you mean ‘[01m[Kbag_file_utils[m[K’?
+  102 |     [01;31m[Kbag_file_handler[m[K->create_bag_topics(topics, "moveit_msgs/msg/CartesianTrajectory");  // Create bag topics for storing trajectories
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kbag_file_utils[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:102:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopics[m[K’ was not declared in this scope
+  102 |     bag_file_handler->create_bag_topics([01;31m[Ktopics[m[K, "moveit_msgs/msg/CartesianTrajectory");  // Create bag topics for storing trajectories
+      |                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:109:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kcartesian_path_poses[m[K’ was not declared in this scope
+  109 |     auto waypoints = generate_waypoints([01;31m[Kcartesian_path_poses[m[K, &move_group_interface);  // Pass the address of move_group_interface
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:109:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kgenerate_waypoints[m[K’ was not declared in this scope
+  109 |     auto waypoints = [01;31m[Kgenerate_waypoints[m[K(cartesian_path_poses, &move_group_interface);  // Pass the address of move_group_interface
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:129:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanned_trajectory[m[K’ was not declared in this scope
+  129 |     [01;31m[Kplanned_trajectory[m[K = planning_node->get_task_space_trajectory(cartesian_plan.trajectory_, robot_state, &logger, end_effector_link_name, base_frame, planning_group);  // Generate a task space trajectory
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/build.make:76: CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/src/panda_moveit_cartesian_demo_nobag.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:314: CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 92%] [32m[1mLinking CXX executable panda_moveit_cartesian_demo[0m
+[ 92%] Built target panda_moveit_cartesian_demo
+gmake: *** [Makefile:146: all] Error 2

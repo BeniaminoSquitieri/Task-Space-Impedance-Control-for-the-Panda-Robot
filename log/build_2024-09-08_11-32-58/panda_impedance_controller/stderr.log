@@ -1,0 +1,10 @@
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:[m[K In member function ‘[01m[Kvoid panda_impedance_controller::ImpedanceController::compute_effort(Eigen::VectorXd&, const VectorXd&, const VectorXd&)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:492:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand type is ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’})
+  492 |     orientation_error = [01;31m[K-actual_ee_orientation_[m[K * orientation_error.toRotationMatrix();
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:492:69:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::VectorXd[m[K’ {aka ‘[01m[Kclass Eigen::Matrix<double, -1, 1>[m[K’} has no member named ‘[01m[KtoRotationMatrix[m[K’
+  492 |     orientation_error = -actual_ee_orientation_ * orientation_error.[01;31m[KtoRotationMatrix[m[K();
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/panda_impedance_controller.dir/build.make:76: CMakeFiles/panda_impedance_controller.dir/src/impedance_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/panda_impedance_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

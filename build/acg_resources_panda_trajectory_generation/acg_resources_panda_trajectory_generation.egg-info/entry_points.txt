@@ -1,0 +1,2 @@
+[console_scripts]
+data_generator_executable = acg_resources_panda_trajectory_generation.data_generator_executable:main

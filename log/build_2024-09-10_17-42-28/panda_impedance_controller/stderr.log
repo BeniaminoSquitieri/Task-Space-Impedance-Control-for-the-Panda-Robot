@@ -1,0 +1,4 @@
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type panda_impedance_controller::ImpedanceController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:825:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcycle_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  825 |   double [01;35m[Kcycle_time[m[K = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin).count() * 1e-9;
+      |          [01;35m[K^~~~~~~~~~[m[K

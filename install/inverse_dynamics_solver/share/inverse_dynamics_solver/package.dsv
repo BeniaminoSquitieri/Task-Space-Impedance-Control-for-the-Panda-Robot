@@ -1,0 +1,8 @@
+source;share/inverse_dynamics_solver/hook/cmake_prefix_path.ps1
+source;share/inverse_dynamics_solver/hook/cmake_prefix_path.dsv
+source;share/inverse_dynamics_solver/hook/cmake_prefix_path.sh
+source;share/inverse_dynamics_solver/local_setup.bash
+source;share/inverse_dynamics_solver/local_setup.dsv
+source;share/inverse_dynamics_solver/local_setup.ps1
+source;share/inverse_dynamics_solver/local_setup.sh
+source;share/inverse_dynamics_solver/local_setup.zsh

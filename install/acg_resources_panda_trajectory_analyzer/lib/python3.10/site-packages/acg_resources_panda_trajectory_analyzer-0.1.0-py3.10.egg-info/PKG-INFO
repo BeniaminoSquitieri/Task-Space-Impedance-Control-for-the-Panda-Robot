@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: acg_resources_panda_trajectory_analyzer
+Version: 0.1.0
+Summary: A robot-agnostic module for utility tools
+Maintainer: Beniamino Squitieri
+Maintainer-email: b.squitieri@studenti.unisa.it
+License: BSD
+Requires-Dist: setuptools
+Requires-Dist: cartesian_control_msgs
+Requires-Dist: scipy

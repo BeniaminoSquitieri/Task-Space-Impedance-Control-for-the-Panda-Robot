@@ -1,0 +1,26 @@
+[  7%] Built target task_space_client_utils_parameters
+[ 23%] Built target bag_file_utils
+[ 38%] Built target task_space_client_utils
+[ 46%] [32mBuilding CXX object CMakeFiles/moveit_utils.dir/src/moveit_utils.cpp.o[0m
+[ 53%] [32m[1mLinking CXX static library libmoveit_utils.a[0m
+[ 53%] Built target moveit_utils
+[ 61%] [32mBuilding CXX object CMakeFiles/panda_moveit_cartesian_demo.dir/src/panda_moveit_cartesian_demo.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/panda_moveit_planning_node.dir/src/panda_moveit_planning_node.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target panda_moveit_cartesian_demo_nobag[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/src/panda_moveit_cartesian_demo_nobag.cpp.o[0m
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_planning_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_planning_node.cpp:61:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kremove_collision_objects[m[K’ was not declared in this scope
+   61 |     [01;31m[Kremove_collision_objects[m[K(planning_scene_interface);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/panda_moveit_planning_node.dir/build.make:76: CMakeFiles/panda_moveit_planning_node.dir/src/panda_moveit_planning_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:256: CMakeFiles/panda_moveit_planning_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:116:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+  116 |     auto waypoints = generate_waypoints(cartesian_path_poses, &[01;31m[Kmove_group_interface[m[K);  // Pass the address of move_group_interface
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 84%] [32m[1mLinking CXX executable panda_moveit_cartesian_demo_nobag[0m
+gmake[2]: *** [CMakeFiles/panda_moveit_cartesian_demo.dir/build.make:76: CMakeFiles/panda_moveit_cartesian_demo.dir/src/panda_moveit_cartesian_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:285: CMakeFiles/panda_moveit_cartesian_demo.dir/all] Error 2
+[ 84%] Built target panda_moveit_cartesian_demo_nobag
+gmake: *** [Makefile:146: all] Error 2

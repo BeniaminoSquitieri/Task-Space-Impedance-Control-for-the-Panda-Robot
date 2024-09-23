@@ -1,0 +1,4 @@
+Invoking command in '/home/beniamino/ros2_ws/build/ros_extensions_utilities': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/ros_extensions_utilities -- -j12 -l12
+Invoked command in '/home/beniamino/ros2_ws/build/ros_extensions_utilities' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/ros_extensions_utilities -- -j12 -l12
+Invoking command in '/home/beniamino/ros2_ws/build/ros_extensions_utilities': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/ros_extensions_utilities
+Invoked command in '/home/beniamino/ros2_ws/build/ros_extensions_utilities' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/beniamino/ros2_ws/build/ros_extensions_utilities

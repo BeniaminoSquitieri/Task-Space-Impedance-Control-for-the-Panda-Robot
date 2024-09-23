@@ -1,0 +1,18 @@
+[  7%] Built target task_space_client_utils_parameters
+[ 23%] Built target bag_file_utils
+[ 38%] Built target moveit_utils
+[ 53%] Built target task_space_client_utils
+[35m[1mConsolidate compiler generated dependencies of target panda_moveit_cartesian_demo[0m
+[ 69%] Built target panda_moveit_cartesian_demo_nobag
+[ 84%] Built target panda_moveit_planning_node
+[ 92%] [32mBuilding CXX object CMakeFiles/panda_moveit_cartesian_demo.dir/src/panda_moveit_cartesian_demo.cpp.o[0m
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:211:40:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kconst std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > > generate_waypoints(std::shared_ptr<geometry_msgs::msg::PoseArray_<std::allocator<void> > >, moveit::planning_interface::MoveGroupInterface*, const rclcpp::Logger&)[m[K’
+  211 |     auto waypoints = [01;31m[Kgenerate_waypoints(cartesian_path_poses, &move_group_interface)[m[K;  // Pass the address of move_group_interface
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:46:45:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 | const std::vector<geometry_msgs::msg::Pose> [01;36m[Kgenerate_waypoints[m[K(
+      |                                             [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/panda_moveit_cartesian_demo.dir/build.make:76: CMakeFiles/panda_moveit_cartesian_demo.dir/src/panda_moveit_cartesian_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:285: CMakeFiles/panda_moveit_cartesian_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

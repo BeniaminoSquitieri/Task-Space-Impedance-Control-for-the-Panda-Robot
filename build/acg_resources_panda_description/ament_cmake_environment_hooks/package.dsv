@@ -1,0 +1,4 @@
+source;share/acg_resources_panda_description/local_setup.bash
+source;share/acg_resources_panda_description/local_setup.dsv
+source;share/acg_resources_panda_description/local_setup.sh
+source;share/acg_resources_panda_description/local_setup.zsh

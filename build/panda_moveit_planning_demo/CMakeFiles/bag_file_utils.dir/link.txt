@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbag_file_utils.a CMakeFiles/bag_file_utils.dir/src/bag_file_utils.cpp.o
+/usr/bin/ranlib libbag_file_utils.a

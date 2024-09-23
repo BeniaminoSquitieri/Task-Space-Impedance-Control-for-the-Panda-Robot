@@ -1,0 +1,12 @@
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:[m[K In function ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > > generate_dense_trajectory(moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:41:30:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktarget_pose[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   41 |     geometry_msgs::msg::Pose [01;35m[Ktarget_pose[m[K = current_pose;
+      |                              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:173:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecute_trajectory[m[K’ was not declared in this scope; did you mean ‘[01m[Krobot_trajectory[m[K’?
+  173 |     [01;31m[Kexecute_trajectory[m[K(moveit_visual_tools, planned_trajectory, planning_node);  // Execute the planned trajectory
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Krobot_trajectory[m[K
+gmake[2]: *** [CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/build.make:76: CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/src/panda_moveit_cartesian_demo_nobag.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:314: CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

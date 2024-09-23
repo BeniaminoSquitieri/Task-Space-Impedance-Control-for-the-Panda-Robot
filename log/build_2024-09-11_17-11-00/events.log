@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.000267] (-) JobUnselected: {'identifier': 'acg_resources_panda_description'}
+[0.000354] (-) JobUnselected: {'identifier': 'acg_resources_panda_moveit_config'}
+[0.000406] (-) JobUnselected: {'identifier': 'acg_resources_panda_trajectory_analyzer'}
+[0.000437] (-) JobUnselected: {'identifier': 'cartesian_control_msgs'}
+[0.000490] (-) JobUnselected: {'identifier': 'inverse_dynamics_solver'}
+[0.000507] (-) JobUnselected: {'identifier': 'kdl_inverse_dynamics_solver'}
+[0.000561] (-) JobUnselected: {'identifier': 'panda_impedance_controller'}
+[0.000577] (-) JobUnselected: {'identifier': 'panda_moveit_planning_demo'}
+[0.000609] (-) JobUnselected: {'identifier': 'ros_extensions_utilities'}
+[0.000681] (acg_resources_panda_trajectory_generation) JobQueued: {'identifier': 'acg_resources_panda_trajectory_generation', 'dependencies': OrderedDict()}
+[0.000702] (acg_resources_panda_trajectory_generation) JobStarted: {'identifier': 'acg_resources_panda_trajectory_generation'}
+[0.099777] (-) TimerEvent: {}
+[0.200047] (-) TimerEvent: {}
+[0.300468] (-) TimerEvent: {}
+[0.400824] (-) TimerEvent: {}
+[0.501220] (-) TimerEvent: {}
+[0.601646] (-) TimerEvent: {}
+[0.701993] (-) TimerEvent: {}
+[0.802409] (-) TimerEvent: {}
+[0.902828] (-) TimerEvent: {}
+[1.003102] (-) TimerEvent: {}
+[1.103545] (-) TimerEvent: {}
+[1.203847] (-) TimerEvent: {}
+[1.304241] (-) TimerEvent: {}
+[1.404539] (-) TimerEvent: {}
+[1.504888] (-) TimerEvent: {}
+[1.605303] (-) TimerEvent: {}
+[1.705730] (-) TimerEvent: {}
+[1.806135] (-) TimerEvent: {}
+[1.906557] (-) TimerEvent: {}
+[2.006952] (-) TimerEvent: {}
+[2.107388] (-) TimerEvent: {}
+[2.207794] (-) TimerEvent: {}
+[2.308175] (-) TimerEvent: {}
+[2.408587] (-) TimerEvent: {}
+[2.509029] (-) TimerEvent: {}
+[2.609446] (-) TimerEvent: {}
+[2.709836] (-) TimerEvent: {}
+[2.810239] (-) TimerEvent: {}
+[2.910656] (-) TimerEvent: {}
+[3.010984] (-) TimerEvent: {}
+[3.111416] (-) TimerEvent: {}
+[3.211828] (-) TimerEvent: {}
+[3.312213] (-) TimerEvent: {}
+[3.412642] (-) TimerEvent: {}
+[3.513027] (-) TimerEvent: {}
+[3.613363] (-) TimerEvent: {}
+[3.713691] (-) TimerEvent: {}
+[3.814066] (-) TimerEvent: {}
+[3.914476] (-) TimerEvent: {}
+[4.014908] (-) TimerEvent: {}
+[4.115327] (-) TimerEvent: {}
+[4.215778] (-) TimerEvent: {}
+[4.316172] (-) TimerEvent: {}
+[4.416597] (-) TimerEvent: {}
+[4.517086] (-) TimerEvent: {}
+[4.617503] (-) TimerEvent: {}
+[4.717854] (-) TimerEvent: {}
+[4.818275] (-) TimerEvent: {}
+[4.918693] (-) TimerEvent: {}
+[5.019110] (-) TimerEvent: {}
+[5.119432] (-) TimerEvent: {}
+[5.219837] (-) TimerEvent: {}
+[5.320244] (-) TimerEvent: {}
+[5.420659] (-) TimerEvent: {}
+[5.521034] (-) TimerEvent: {}
+[5.621450] (-) TimerEvent: {}
+[5.721846] (-) TimerEvent: {}
+[5.822288] (-) TimerEvent: {}
+[5.922704] (-) TimerEvent: {}
+[6.023097] (-) TimerEvent: {}
+[6.123513] (-) TimerEvent: {}
+[6.223846] (-) TimerEvent: {}
+[6.324250] (-) TimerEvent: {}
+[6.424667] (-) TimerEvent: {}
+[6.525070] (-) TimerEvent: {}
+[6.625480] (-) TimerEvent: {}
+[6.725915] (-) TimerEvent: {}
+[6.826332] (-) TimerEvent: {}
+[6.926778] (-) TimerEvent: {}
+[7.027194] (-) TimerEvent: {}
+[7.127619] (-) TimerEvent: {}
+[7.228075] (-) TimerEvent: {}
+[7.328411] (-) TimerEvent: {}
+[7.428836] (-) TimerEvent: {}
+[7.529234] (-) TimerEvent: {}
+[7.629661] (-) TimerEvent: {}
+[7.730021] (-) TimerEvent: {}
+[7.830436] (-) TimerEvent: {}
+[7.930820] (-) TimerEvent: {}
+[8.031213] (-) TimerEvent: {}
+[8.131640] (-) TimerEvent: {}
+[8.231985] (-) TimerEvent: {}
+[8.333270] (-) TimerEvent: {}
+[8.433852] (-) TimerEvent: {}
+[8.534336] (-) TimerEvent: {}
+[8.634677] (-) TimerEvent: {}
+[8.734989] (-) TimerEvent: {}
+[8.835240] (-) TimerEvent: {}
+[8.935542] (-) TimerEvent: {}
+[9.035823] (-) TimerEvent: {}
+[9.136111] (-) TimerEvent: {}
+[9.236396] (-) TimerEvent: {}
+[9.336709] (-) TimerEvent: {}
+[9.437016] (-) TimerEvent: {}
+[9.537306] (-) TimerEvent: {}
+[9.637632] (-) TimerEvent: {}
+[9.737938] (-) TimerEvent: {}
+[9.838231] (-) TimerEvent: {}
+[9.938543] (-) TimerEvent: {}
+[10.038820] (-) TimerEvent: {}
+[10.139112] (-) TimerEvent: {}
+[10.239439] (-) TimerEvent: {}
+[10.339756] (-) TimerEvent: {}
+[10.440065] (-) TimerEvent: {}
+[10.540393] (-) TimerEvent: {}
+[10.640762] (-) TimerEvent: {}
+[10.741202] (-) TimerEvent: {}
+[10.841647] (-) TimerEvent: {}
+[10.942084] (-) TimerEvent: {}
+[11.042502] (-) TimerEvent: {}
+[11.142858] (-) TimerEvent: {}
+[11.243174] (-) TimerEvent: {}
+[11.343721] (-) TimerEvent: {}
+[11.446247] (-) TimerEvent: {}
+[11.546802] (-) TimerEvent: {}
+[11.647145] (-) TimerEvent: {}
+[11.747506] (-) TimerEvent: {}
+[11.847834] (-) TimerEvent: {}
+[11.948237] (-) TimerEvent: {}
+[12.048655] (-) TimerEvent: {}
+[12.149047] (-) TimerEvent: {}
+[12.249506] (-) TimerEvent: {}
+[12.349866] (-) TimerEvent: {}
+[12.450247] (-) TimerEvent: {}
+[12.550667] (-) TimerEvent: {}
+[12.651083] (-) TimerEvent: {}
+[12.751495] (-) TimerEvent: {}
+[12.851821] (-) TimerEvent: {}
+[12.952230] (-) TimerEvent: {}
+[13.052655] (-) TimerEvent: {}
+[13.152938] (-) TimerEvent: {}
+[13.253358] (-) TimerEvent: {}
+[13.353776] (-) TimerEvent: {}
+[13.454170] (-) TimerEvent: {}
+[13.554483] (-) TimerEvent: {}
+[13.654830] (-) TimerEvent: {}
+[13.755235] (-) TimerEvent: {}
+[13.855506] (-) TimerEvent: {}
+[13.973891] (-) TimerEvent: {}
+[14.074134] (-) TimerEvent: {}
+[14.174410] (-) TimerEvent: {}
+[14.274622] (-) TimerEvent: {}
+[14.374904] (-) TimerEvent: {}
+[14.475149] (-) TimerEvent: {}
+[14.521042] (acg_resources_panda_trajectory_generation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/acg_resources_panda_trajectory_generation', 'build', '--build-base', '/home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_generation/build', 'install', '--record', '/home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_generation/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/beniamino/ros2_ws/src/panda_impedance_controller/acg_resources_panda_trajectory_generation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'beniamino', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/beniamino/ros2_ws/install/panda_impedance_controller/lib:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib:/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/beniamino', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '26210', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/beniamino/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'beniamino', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'beniamino', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/beniamino/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/beniamino-TUF-Gaming-FX505GE-FX505GE:@/tmp/.ICE-unix/1825,unix/beniamino-TUF-Gaming-FX505GE-FX505GE:/tmp/.ICE-unix/1825', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7d3a298f_7704_46bf_be13_274dc33998b7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5KRMT2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.497', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_generation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_generation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages:/home/beniamino/ros2_ws/install/cartesian_control_msgs/local/lib/python3.10/dist-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/acg_resources_panda_description'}, 'shell': False}
+[14.575269] (-) TimerEvent: {}
+[14.675533] (-) TimerEvent: {}
+[14.758689] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'running egg_info\n'}
+[14.774817] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'writing ../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info/PKG-INFO\n'}
+[14.775590] (-) TimerEvent: {}
+[14.872090] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'writing dependency_links to ../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info/dependency_links.txt\n'}
+[14.875815] (-) TimerEvent: {}
+[14.976163] (-) TimerEvent: {}
+[14.998419] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'writing entry points to ../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info/entry_points.txt\n'}
+[15.076426] (-) TimerEvent: {}
+[15.103863] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'writing requirements to ../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info/requires.txt\n'}
+[15.123213] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'writing top-level names to ../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info/top_level.txt\n'}
+[15.176688] (-) TimerEvent: {}
+[15.246957] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b"reading manifest file '../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info/SOURCES.txt'\n"}
+[15.247198] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[15.247973] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b"writing manifest file '../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info/SOURCES.txt'\n"}
+[15.276826] (-) TimerEvent: {}
+[15.377263] (-) TimerEvent: {}
+[15.464954] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'running build\n'}
+[15.465122] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'running build_py\n'}
+[15.465313] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'copying acg_resources_panda_trajectory_generation/data_generator_executable.py -> /home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_generation/build/lib/acg_resources_panda_trajectory_generation\n'}
+[15.465818] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'running install\n'}
+[15.470885] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'running install_lib\n'}
+[15.477323] (-) TimerEvent: {}
+[15.488599] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'running install_data\n'}
+[15.488848] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.508884] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b"removing '/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages/acg_resources_panda_trajectory_generation-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.577581] (-) TimerEvent: {}
+[15.596309] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'Copying ../../../build/acg_resources_panda_trajectory_generation/acg_resources_panda_trajectory_generation.egg-info to /home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/python3.10/site-packages/acg_resources_panda_trajectory_generation-0.0.0-py3.10.egg-info\n'}
+[15.597260] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'running install_scripts\n'}
+[15.677700] (-) TimerEvent: {}
+[15.761821] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b'Installing data_generator_executable script to /home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation/lib/acg_resources_panda_trajectory_generation\n'}
+[15.774546] (acg_resources_panda_trajectory_generation) StdoutLine: {'line': b"writing list of installed files to '/home/beniamino/ros2_ws/build/acg_resources_panda_trajectory_generation/install.log'\n"}
+[15.777840] (-) TimerEvent: {}
+[15.795256] (acg_resources_panda_trajectory_generation) CommandEnded: {'returncode': 0}
+[15.878058] (-) TimerEvent: {}
+[15.978446] (-) TimerEvent: {}
+[16.078833] (-) TimerEvent: {}
+[16.161090] (acg_resources_panda_trajectory_generation) JobEnded: {'identifier': 'acg_resources_panda_trajectory_generation', 'rc': 0}
+[16.162214] (-) EventReactorShutdown: {}

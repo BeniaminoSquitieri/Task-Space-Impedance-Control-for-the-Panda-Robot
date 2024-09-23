@@ -1,0 +1,3 @@
+setuptools
+cartesian_control_msgs
+scipy

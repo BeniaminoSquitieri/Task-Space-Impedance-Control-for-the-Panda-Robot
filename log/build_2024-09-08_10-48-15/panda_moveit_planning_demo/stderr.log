@@ -1,0 +1,10 @@
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:120:48:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&[m[K’ from an rvalue of type ‘[01m[Kmoveit::planning_interface::MoveGroupInterface*[m[K’
+  120 |     auto waypoints = generate_60cm_trajectory( [01;31m[K&move_group_interface[m[K);  // Pass the address of move_group_interface
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo_nobag.cpp:45:112:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > > generate_60cm_trajectory(moveit::planning_interface::MoveGroupInterface&)[m[K’
+   45 | std::vector<geometry_msgs::msg::Pose> generate_60cm_trajectory([01;36m[Kmoveit::planning_interface::MoveGroupInterface& move_group_interface[m[K) {
+      |                                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/build.make:76: CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/src/panda_moveit_cartesian_demo_nobag.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:314: CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

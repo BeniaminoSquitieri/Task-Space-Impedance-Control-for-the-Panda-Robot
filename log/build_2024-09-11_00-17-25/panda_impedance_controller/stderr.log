@@ -1,0 +1,49 @@
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:[m[K In member function ‘[01m[Kvoid panda_impedance_controller::ImpedanceController::compute_effort(Eigen::VectorXd&, const VectorXd&, const VectorXd&)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:537:30:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+=[m[K’ (operand types are ‘[01m[Kconst VectorXd[m[K’ {aka ‘[01m[Kconst Eigen::Matrix<double, -1, 1>[m[K’} and ‘[01m[Kconst Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::Product<Eigen::Inverse<Eigen::CompleteOrthogonalDecomposition<Eigen::Matrix<double, -1, -1> > >, Eigen::Matrix<double, -1, -1>, 0> >, Eigen::Matrix<double, -1, 1>, 0>[m[K’)
+  537 |     [01;31m[Kcurrent_velocities_eigen +=( identity - actual_jacobian_.completeOrthogonalDecomposition().pseudoInverse() * actual_jacobian_)  *manipulability_velocity[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:298[m[K,
+                 from [01m[K/usr/include/kdl/jacobian.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/jntarray.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/chainidsolver.hpp:27[m[K,
+                 from [01m[K/usr/include/kdl/chainidsolver_recursive_newton_euler.hpp:25[m[K,
+                 from [01m[K/usr/include/kdl/chaindynparam.hpp:25[m[K,
+                 from [01m[K/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/include/kdl_inverse_dynamics_solver/kdl_inverse_dynamics_solver.h:20[m[K,
+                 from [01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/include/panda_impedance_controller/impedance_controller.hpp:18[m[K,
+                 from [01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:175:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KDerived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::Product<Eigen::Inverse<Eigen::CompleteOrthogonalDecomposition<Eigen::Matrix<double, -1, -1> > >, Eigen::Matrix<double, -1, -1>, 0> >, Eigen::Matrix<double, -1, 1>, 0>; Derived = Eigen::Matrix<double, -1, 1>][m[K’ (near match)
+  175 | [01;36m[KMatrixBase<Derived>[m[K::operator+=(const MatrixBase<OtherDerived>& other)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:175:1:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst VectorXd*[m[K’ {aka ‘[01m[Kconst Eigen::Matrix<double, -1, 1>*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:273[m[K,
+                 from [01m[K/usr/include/kdl/jacobian.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/jntarray.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/chainidsolver.hpp:27[m[K,
+                 from [01m[K/usr/include/kdl/chainidsolver_recursive_newton_euler.hpp:25[m[K,
+                 from [01m[K/usr/include/kdl/chaindynparam.hpp:25[m[K,
+                 from [01m[K/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/include/kdl_inverse_dynamics_solver/kdl_inverse_dynamics_solver.h:20[m[K,
+                 from [01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/include/panda_impedance_controller/impedance_controller.hpp:18[m[K,
+                 from [01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Derived& Eigen::MatrixBase<Derived>::operator+=(const Eigen::ArrayBase<OtherDerived>&) [with OtherDerived = OtherDerived; Derived = Eigen::Matrix<double, -1, 1>][m[K’
+  493 |     template<typename OtherDerived> Derived& [01;36m[Koperator[m[K+=(const ArrayBase<OtherDerived>& )
+      |                                              [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:493:46:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:537:134:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::Product<Eigen::Inverse<Eigen::CompleteOrthogonalDecomposition<Eigen::Matrix<double, -1, -1> > >, Eigen::Matrix<double, -1, -1>, 0> >, Eigen::Matrix<double, -1, 1>, 0>[m[K’ is not derived from ‘[01m[Kconst Eigen::ArrayBase<Derived>[m[K’
+  537 |     current_velocities_eigen +=( identity - actual_jacobian_.completeOrthogonalDecomposition().pseudoInverse() * actual_jacobian_)  *[01;36m[Kmanipulability_velocity[m[K;
+      |                                                                                                                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:274[m[K,
+                 from [01m[K/usr/include/kdl/jacobian.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/jntarray.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/chainidsolver.hpp:27[m[K,
+                 from [01m[K/usr/include/kdl/chainidsolver_recursive_newton_euler.hpp:25[m[K,
+                 from [01m[K/usr/include/kdl/chaindynparam.hpp:25[m[K,
+                 from [01m[K/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/include/kdl_inverse_dynamics_solver/kdl_inverse_dynamics_solver.h:20[m[K,
+                 from [01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/include/panda_impedance_controller/impedance_controller.hpp:18[m[K,
+                 from [01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/EigenBase.h:143:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KDerived& Eigen::DenseBase<Derived>::operator+=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::Product<Eigen::CwiseBinaryOp<Eigen::internal::scalar_difference_op<double, double>, const Eigen::Matrix<double, -1, -1>, const Eigen::Product<Eigen::Inverse<Eigen::CompleteOrthogonalDecomposition<Eigen::Matrix<double, -1, -1> > >, Eigen::Matrix<double, -1, -1>, 0> >, Eigen::Matrix<double, -1, 1>, 0>; Derived = Eigen::Matrix<double, -1, 1>][m[K’ (near match)
+  143 | Derived& [01;36m[KDenseBase<Derived>[m[K::operator+=(const EigenBase<OtherDerived> &other)
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/EigenBase.h:143:10:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst VectorXd*[m[K’ {aka ‘[01m[Kconst Eigen::Matrix<double, -1, 1>*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+gmake[2]: *** [CMakeFiles/panda_impedance_controller.dir/build.make:76: CMakeFiles/panda_impedance_controller.dir/src/impedance_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/panda_impedance_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

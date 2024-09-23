@@ -1,0 +1,11 @@
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn panda_impedance_controller::ImpedanceController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:322:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kk0[m[K’ was not declared in this scope; did you mean ‘[01m[Ky0[m[K’?
+  322 |     [01;31m[Kk0[m[K = ros_params_.gains.k0;  // Scaling factor for manipulability optimization
+      |     [01;31m[K^~[m[K
+      |     [32m[Ky0[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller.cpp:322:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct impedance_controller::Params::Gains[m[K’ has no member named ‘[01m[Kk0[m[K’
+  322 |     k0 = ros_params_.gains.[01;31m[Kk0[m[K;  // Scaling factor for manipulability optimization
+      |                            [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/panda_impedance_controller.dir/build.make:76: CMakeFiles/panda_impedance_controller.dir/src/impedance_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/panda_impedance_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/home/beniamino/ros2_ws/build/panda_moveit_planning_demo': CMAKE_PREFIX_PATH=/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble LD_LIBRARY_PATH=/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib:/home/beniamino/ros2_ws/install/panda_impedance_controller/lib:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/beniamino/ros2_ws/build/panda_moveit_planning_demo -- -j12 -l12
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target moveit_utils[0m
+[0.066s] [  7%] Built target task_space_client_utils_parameters
+[0.072s] [ 23%] Built target bag_file_utils
+[0.095s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_utils.dir/src/moveit_utils.cpp.o[0m
+[0.096s] [ 46%] Built target task_space_client_utils
+[9.189s] [ 53%] [32m[1mLinking CXX static library libmoveit_utils.a[0m
+[9.255s] [ 53%] Built target moveit_utils
+[9.272s] [35m[1mConsolidate compiler generated dependencies of target panda_moveit_planning_node[0m
+[9.272s] [35m[1mConsolidate compiler generated dependencies of target panda_moveit_cartesian_demo[0m
+[9.273s] [35m[1mConsolidate compiler generated dependencies of target panda_moveit_cartesian_demo_nobag[0m
+[9.305s] [ 61%] [32mBuilding CXX object CMakeFiles/panda_moveit_cartesian_demo.dir/src/panda_moveit_cartesian_demo.cpp.o[0m
+[9.306s] [ 69%] [32mBuilding CXX object CMakeFiles/panda_moveit_cartesian_demo_nobag.dir/src/panda_moveit_cartesian_demo_nobag.cpp.o[0m
+[9.308s] [ 76%] [32mBuilding CXX object CMakeFiles/panda_moveit_planning_node.dir/src/panda_moveit_planning_node.cpp.o[0m
+[17.785s] [01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[17.785s] [01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:116:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+[17.786s]   116 |     auto waypoints = generate_waypoints(cartesian_path_poses, &[01;31m[Kmove_group_interface[m[K);  // Pass the address of move_group_interface
+[17.786s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[20.090s] [ 84%] [32m[1mLinking CXX executable panda_moveit_planning_node[0m
+[20.958s] gmake[2]: *** [CMakeFiles/panda_moveit_cartesian_demo.dir/build.make:76: CMakeFiles/panda_moveit_cartesian_demo.dir/src/panda_moveit_cartesian_demo.cpp.o] Error 1
+[20.959s] gmake[1]: *** [CMakeFiles/Makefile2:285: CMakeFiles/panda_moveit_cartesian_demo.dir/all] Error 2
+[20.959s] gmake[1]: *** Waiting for unfinished jobs....
+[21.035s] [ 84%] Built target panda_moveit_planning_node
+[21.310s] [ 92%] [32m[1mLinking CXX executable panda_moveit_cartesian_demo_nobag[0m
+[22.113s] [ 92%] Built target panda_moveit_cartesian_demo_nobag
+[22.114s] gmake: *** [Makefile:146: all] Error 2
+[22.116s] Invoked command in '/home/beniamino/ros2_ws/build/panda_moveit_planning_demo' returned '2': CMAKE_PREFIX_PATH=/home/beniamino/ros2_ws/install/acg_resources_panda_moveit_config:/home/beniamino/ros2_ws/install/cartesian_control_msgs:/home/beniamino/ros2_ws/install/acg_resources_panda_description:/home/beniamino/ros2_ws/install/ros_extensions_utilities:/home/beniamino/ros2_ws/install/panda_moveit_planning_demo:/home/beniamino/ros2_ws/install/panda_impedance_controller:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver:/home/beniamino/ros2_ws/install/inverse_dynamics_solver:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble LD_LIBRARY_PATH=/home/beniamino/ros2_ws/install/cartesian_control_msgs/lib:/home/beniamino/ros2_ws/install/panda_impedance_controller/lib:/home/beniamino/ros2_ws/install/kdl_inverse_dynamics_solver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/beniamino/ros2_ws/build/panda_moveit_planning_demo -- -j12 -l12

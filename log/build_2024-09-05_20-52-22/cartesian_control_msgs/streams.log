@@ -1,0 +1,26 @@
+[0.256s] Invoking command in '/home/beniamino/ros2_ws/build/cartesian_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_generation:/home/beniamino/ros2_ws/install/acg_resources_panda_trajectory_analyzer:/opt/ros/humble /usr/bin/cmake --build /home/beniamino/ros2_ws/build/cartesian_control_msgs -- -j12 -l12
+[0.343s] [  9%] Built target cartesian_control_msgs__rosidl_generator_c
+[0.344s] [ 12%] Built target cartesian_control_msgs__cpp
+[0.355s] [ 12%] Built target ament_cmake_python_copy_cartesian_control_msgs
+[0.389s] [ 22%] Built target cartesian_control_msgs__rosidl_typesupport_fastrtps_c
+[0.391s] [ 32%] Built target cartesian_control_msgs__rosidl_typesupport_c
+[0.392s] [ 41%] Built target cartesian_control_msgs__rosidl_typesupport_introspection_c
+[0.394s] [ 51%] Built target cartesian_control_msgs__rosidl_typesupport_introspection_cpp
+[0.406s] [ 61%] Built target cartesian_control_msgs__rosidl_typesupport_cpp
+[0.409s] [ 70%] Built target cartesian_control_msgs__rosidl_typesupport_fastrtps_cpp
+[0.443s] [ 70%] Built target cartesian_control_msgs
+[0.480s] [ 74%] Built target cartesian_control_msgs__py
+[0.482s] Traceback (most recent call last):
+[0.482s]   File "/home/beniamino/ros2_ws/build/cartesian_control_msgs/ament_cmake_python/cartesian_control_msgs/setup.py", line 1, in <module>
+[0.483s]     from setuptools import find_packages
+[0.483s]   File "/home/beniamino/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 12, in <module>
+[0.483s] gmake[1]: *** [CMakeFiles/Makefile2:591: cartesian_control_msgs__py/CMakeFiles/cartesian_control_msgs__py.dir/all] Interrupt
+[0.588s]     from . import logging, monkey
+[0.588s]   File "/home/beniamino/.local/lib/python3.10/site-packages/setuptools/logging.py", line 2, in <module>
+[0.590s]     import inspect
+[0.590s]   File "/usr/lib/python3.10/inspect.py", line 2890, in <module>
+[0.672s]     class Signature:
+[0.672s] KeyboardInterrupt
+[0.686s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_cartesian_control_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_cartesian_control_msgs_egg] Interrupt
+[0.686s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_cartesian_control_msgs_egg.dir/all] Interrupt
+[0.686s] gmake: *** [Makefile:146: all] Interrupt

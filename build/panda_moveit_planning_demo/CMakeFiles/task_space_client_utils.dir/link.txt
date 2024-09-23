@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtask_space_client_utils.a CMakeFiles/task_space_client_utils.dir/src/task_space_client_utils.cpp.o
+/usr/bin/ranlib libtask_space_client_utils.a

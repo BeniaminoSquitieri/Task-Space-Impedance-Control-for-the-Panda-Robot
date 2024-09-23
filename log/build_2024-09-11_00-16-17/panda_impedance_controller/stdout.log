@@ -1,0 +1,4 @@
+[ 16%] Built target panda_impedance_controller_parameters
+[ 50%] Built target calculate_pose
+[35m[1mConsolidate compiler generated dependencies of target panda_impedance_controller[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/panda_impedance_controller.dir/src/impedance_controller.cpp.o[0m

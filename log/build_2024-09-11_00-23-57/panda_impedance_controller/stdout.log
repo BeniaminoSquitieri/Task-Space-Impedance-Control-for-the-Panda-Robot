@@ -1,0 +1,5 @@
+[ 16%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/beniamino/ros2_ws/build/panda_impedance_controller/panda_impedance_controller_parameters/include//panda_impedance_controller_parameters.hpp /home/beniamino/ros2_ws/src/panda_impedance_controller/panda_impedance_controller/src/impedance_controller_parameters.yaml `[0m
+[ 50%] Built target calculate_pose
+[ 50%] Built target panda_impedance_controller_parameters
+[35m[1mConsolidate compiler generated dependencies of target panda_impedance_controller[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/panda_impedance_controller.dir/src/impedance_controller.cpp.o[0m

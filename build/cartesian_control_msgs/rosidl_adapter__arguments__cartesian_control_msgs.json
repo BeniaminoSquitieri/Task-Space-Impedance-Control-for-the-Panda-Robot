@@ -1,0 +1,6 @@
+{
+  "package_name": "cartesian_control_msgs",
+  "non_idl_tuples": [
+    "/home/beniamino/ros2_ws/src/panda_impedance_controller/cartesian_control_msgs:action/FollowCartesianTrajectory.action"
+  ]
+}

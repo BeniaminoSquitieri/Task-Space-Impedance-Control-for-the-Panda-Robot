@@ -1,0 +1,18 @@
+[  9%] Built target task_space_client_utils_parameters
+[ 27%] Built target bag_file_utils
+[ 45%] Built target moveit_utils
+[ 63%] Built target task_space_client_utils
+[35m[1mConsolidate compiler generated dependencies of target panda_moveit_cartesian_demo[0m
+[ 81%] Built target panda_moveit_planning_node
+[ 90%] [32mBuilding CXX object CMakeFiles/panda_moveit_cartesian_demo.dir/src/panda_moveit_cartesian_demo.cpp.o[0m
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:418:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kgenerate_waypoints[m[K’ was not declared in this scope
+  418 |         waypoints = [01;31m[Kgenerate_waypoints[m[K(cartesian_path_poses);  // Generate waypoints from the bag file data
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/beniamino/ros2_ws/src/panda_impedance_controller/panda_moveit_planning_demo/src/panda_moveit_cartesian_demo.cpp:456:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecute_trajectory[m[K’ was not declared in this scope; did you mean ‘[01m[Krobot_trajectory[m[K’?
+  456 |     [01;31m[Kexecute_trajectory[m[K(moveit_visual_tools, planning_node->get_task_space_trajectory(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Krobot_trajectory[m[K
+gmake[2]: *** [CMakeFiles/panda_moveit_cartesian_demo.dir/build.make:76: CMakeFiles/panda_moveit_cartesian_demo.dir/src/panda_moveit_cartesian_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:283: CMakeFiles/panda_moveit_cartesian_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
