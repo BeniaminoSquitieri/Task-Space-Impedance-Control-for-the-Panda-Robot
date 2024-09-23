@@ -2,11 +2,11 @@
 <package format="3">
   <name>acg_resources_panda_description</name>
   <version>2.0.6</version>
-  <description>Panda description used by the Automatic Control Group at the University of Salerno</description>
+  <description>Panda description </description>
 
-  <author email="eferrentino@unisa.it">Enrico Ferrentino</author>
+  <author email="b.squitieri@unisa.it">Beniamino Squitieri</author>
 
-  <maintainer email="eferrentino@unisa.it">Enrico Ferrentino</maintainer>
+  <maintainer email="b.squitieri@unisa.it">Beniamino Squitieri</maintainer>
 
   <license>BSD</license>
   <url type="repository">https://bitbucket.org/unisa-acg/unisa_acg_ros2</url>
