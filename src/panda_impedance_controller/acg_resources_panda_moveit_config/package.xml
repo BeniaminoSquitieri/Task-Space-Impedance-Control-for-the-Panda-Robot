@@ -4,7 +4,7 @@
   <name>acg_resources_panda_moveit_config</name>
   <version>0.3.0</version>
   <description>
-    The Panda configuration package used by the Automatic Control Group
+    The Panda configuration package 
   </description>
   <maintainer email="b.squitieri@unisa.it">Beniamino Squitieri</maintainer>
 
