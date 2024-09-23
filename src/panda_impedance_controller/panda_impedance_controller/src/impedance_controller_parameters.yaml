@@ -1,0 +1,68 @@
+impedance_controller:
+  robot_description: 
+    type: string
+    default_value: "robot_description"
+    description: "Name of the topic where the robot_description is published"
+
+  robot_base_link: 
+    type: string
+    description: "The base link of the robot used as the reference frame for calculations"
+
+  end_effector_link: 
+    type: string
+    description: "The link of the robot that acts as the end effector"
+
+  joint_model_group_name: 
+    type: string
+    description: "The joint model group for which the controller is configured"
+
+  desired_joint_positions:
+    type: double_array
+    description: "The desired positions for each joint in the joint space"
+
+  desired_orientation_rpy:
+    roll:
+      type: double
+      description: "Desired roll angle of the end-effector in radians"
+    pitch:
+      type: double
+      description: "Desired pitch angle of the end-effector in radians"
+    yaw:
+      type: double
+      description: "Desired yaw angle of the end-effector in radians"
+
+  gains:
+    stiffness:
+      x: 
+        type: double
+        description: "Stiffness of the impedance controller along the x-axis"
+      y: 
+        type: double
+        description: "Stiffness of the impedance controller along the y-axis"
+      z: 
+        type: double
+        description: "Stiffness of the impedance controller along the z-axis"
+      orientation_x: 
+        type: double
+        description: "Stiffness of the impedance controller for orientation about the x-axis"
+      orientation_y: 
+        type: double
+        description: "Stiffness of the impedance controller for orientation about the y-axis"
+      orientation_z: 
+        type: double
+        description: "Stiffness of the impedance controller for orientation about the z-axis"
+
+
+  nullspace_stiffness:
+    type: double
+    description: ""
+
+  gravity_compensation:
+    type: bool
+    description: "Flag to determine whether to calculate gravity compensation in the control law"
+
+  use_nullspace_optimization: {
+    type: bool,
+    default_value: true,
+    description: "Whether or not to use nullspace optimization during trajectory execution.",
+  }

@@ -1,0 +1,72 @@
+task_space_client_utils:
+  planning_group:
+    type: string
+    default_value: "panda_arm"
+    description: "The name of the planning group for which motion planning is to be performed."
+
+  # position_goal_tolerance:
+  #   type: double
+  #   default_value: 0.1
+  #   description: "The tolerance for deviation from the goal position for motion planning."
+
+  controller_name:
+    type: string
+    description: "The name of the motion controller."
+
+  base_frame:
+    type: string
+    default_value: "world"
+    description: "The reference frame for the robot's base."
+
+  # Bag file parameters
+  executed_trajectory_file:
+    type: string
+    default_value: "executed_line_trajectory"
+    description: "The name of the file where executed trajectory data is saved."
+
+  planned_trajectory_file:
+      type: string
+      default_value: "planned_line_trajectory"
+      description: "The name of the file where executed trajectory data is saved."   
+  
+  planned_trajectories_topic:
+    p2p:
+      type: string
+      default_value: "/planned_point_to_point"
+      description: "The topic for saving the planned trajectory in the bag file."
+    ready:
+      type: string
+      default_value: "/planned_ready_feedback"
+      description: "The topic for feedback on the trajectory to the ready pose."
+    cartesian:
+      type: string
+      default_value: "/planned_panda_feed"
+      description: "The topic for feedback on cartesian trajectories executed by the robot."
+
+  input_bag_file_topic:
+    type: string
+    default_value: "cartesian_path"
+    description: "The topic name for the input bag file containing path data."
+
+  executed_trajectories_topic:
+    ready_topic:
+      type: string
+      default_value: "/ready_feedback"
+      description: "The topic for feedback on the trajectory to the ready pose."
+    p2p_recorded_topic:
+      type: string
+      default_value: "/point_to_point"
+      description: "The topic for feedback on point-to-point trajectories."
+    cartesian_topic:
+      type: string
+      default_value: "/panda_feed"
+      description: "The topic for feedback on cartesian trajectories executed by the robot."
+
+
+  established_poses:
+    ready_pose:
+      type: string
+      default_value: "ready"
+      description: "The robot's named position for its 'ready' pose."
+    
+

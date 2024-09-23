@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>panda_impedance_controller</name>
+  <version>0.0.1</version>
+  <description>The panda_impedance_controller package</description>
+
+  <maintainer email="user@todo.todo">maintainer</maintainer>
+
+  <license>BSD</license>
+
+  <build_depend>rclcpp</build_depend>
+  <build_depend>controller_interface</build_depend>
+  <build_depend>hardware_interface</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>cartesian_control_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>kdl_parser</build_depend>
+  <build_depend>inverse_dynamics_solver</build_depend>  
+  <build_depend>kdl_inverse_dynamics_solver</build_depend> 
+
+  <exec_depend>rclcpp</exec_depend>
+  <depend>rclcpp_action</depend>
+  <exec_depend>controller_interface</exec_depend>
+  <exec_depend>hardware_interface</exec_depend>
+  <exec_depend>pluginlib</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>kdl_parser</exec_depend>
+  <exec_depend>inverse_dynamics_solver</exec_depend>  
+  <exec_depend>cartesian_control_msgs</exec_depend>
+  <exec_depend>kdl_inverse_dynamics_solver</exec_depend> 
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <controller_interface plugin="${prefix}/panda_impedance_controller.xml"/>
+  </export>
+</package>
