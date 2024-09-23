@@ -9,8 +9,6 @@
 # results published in: Identification of the Franka Emika
 # PandaRobot With Retrieval of Feasible Parameters Using
 # Penalty-Based Optimization
-# by: Claudio Gaz, Marco Cognetti, Alexander Oliva,
-# Paolo Robuffo Giordano, Alessandro de Luca
 link0:
   origin:
     xyz: -0.041018 -0.00014 0.049974
