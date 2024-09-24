@@ -5,9 +5,9 @@
   <version>0.1.0</version>
   <description>A package for recording sensor data to ROS 2 bags using Python nodes</description>
   <!-- Author information -->
-  <author email="b.squitieri@studenti.unisa.it">Beniamino Squitieri</author>
+  <author email="bennibeniamino@gmail.com">Beniamino Squitieri</author>
   <!-- Maintainer information -->
-  <maintainer email="b.squitieri@studenti.unisa.it">Beniamino Squitieri</maintainer>
+  <maintainer email="bennibeniamino@gmail.com">Beniamino Squitieri</maintainer>
   <!-- License information -->
   <license>BSD</license>
 
