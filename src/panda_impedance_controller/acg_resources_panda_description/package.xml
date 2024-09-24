@@ -4,9 +4,9 @@
   <version>2.0.6</version>
   <description>Panda description </description>
 
-  <author email="b.squitieri@unisa.it">Beniamino Squitieri</author>
+  <author email="bennibeniamino@gmail.com">Beniamino Squitieri</author>
 
-  <maintainer email="b.squitieri@unisa.it">Beniamino Squitieri</maintainer>
+  <maintainer email="bennibeniamino@gmail.com">Beniamino Squitieri</maintainer>
 
   <license>BSD</license>
   <url type="repository">https://bitbucket.org/unisa-acg/unisa_acg_ros2</url>
