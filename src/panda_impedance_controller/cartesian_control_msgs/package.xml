@@ -5,9 +5,9 @@
   <version>0.0.1</version>
   <description>Messages needed for the task space control</description>
   <!-- Author information -->
-  <author email="b.squitieri@studenti.unisa.it">Beniamino Squitieri</author>
+  <author email="bennibeniamino@gmail.com">Beniamino Squitieri</author>
   <!-- Maintainer information -->
-  <maintainer email="b.squitieri@studenti.unisa.it">Beniamino Squitieri</maintainer>
+  <maintainer email="bennibeniamino@gmail.com">Beniamino Squitieri</maintainer>
   <!-- License information -->
   <license>BSD</license>
   <buildtool_depend>ament_cmake</buildtool_depend>
