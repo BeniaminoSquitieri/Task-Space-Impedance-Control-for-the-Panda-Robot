@@ -13,7 +13,7 @@
   <url type="bugtracker">https://bitbucket.org/unisa-acg/unisa_acg_ros2/issues</url>
   <url type="repository">https://bitbucket.org/unisa-acg/unisa_acg_ros2</url>
 
-  <author email="b.squitieri@unisa.it">Beniamino Squitieri</author>
+  <author email="bennibeniamino@gmail.com">Beniamino Squitieri</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
