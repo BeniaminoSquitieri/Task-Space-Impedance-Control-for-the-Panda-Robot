@@ -72,5 +72,5 @@ To address some of the limitations:
 
 For any inquiries, please contact:
 
-- Beniamino Squitieri - b.squitieri@studenti.unisa.it
+- Beniamino Squitieri - bennibeniamino@gmail.com
 
