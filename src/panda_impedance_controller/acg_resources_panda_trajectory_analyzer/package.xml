@@ -6,9 +6,9 @@
   <description>A robot-agnostic module for utility tools</description>
   
   <!-- Author information -->
-  <author email="b.squitieri@studenti.unisa.it">Beniamino Squitieri</author>
+  <author email=bennibeniamino@gmail.com">Beniamino Squitieri</author>
   <!-- Maintainer information -->
-  <maintainer email="b.squitieri@studenti.unisa.it">Beniamino Squitieri</maintainer>
+  <maintainer email="bennibeniamino@gmail.com">Beniamino Squitieri</maintainer>
   <!-- License information -->
   <license>BSD</license>
   <test_depend>ament_copyright</test_depend>
