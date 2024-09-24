@@ -4,7 +4,7 @@
   <name>kdl_inverse_dynamics_solver</name>
   <version>0.0.0</version>
   <description>A KDL-based library implementing an inverse dynamics solver for simulated robots.</description>
-  <maintainer email="todo@todo.todo">TODO</maintainer>
+  <maintainer email="bennibeniamino@gmail.com">TODO</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake_ros</buildtool_depend>
