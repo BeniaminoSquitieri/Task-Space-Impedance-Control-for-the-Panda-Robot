@@ -4,13 +4,16 @@
   <name>acg_resources_panda_moveit_config</name>
   <version>0.3.0</version>
   <description>
-    The Panda configuration package 
+    The Panda configuration package used by the Automatic Control Group
   </description>
-  <maintainer email="b.squitieri@unisa.it">Beniamino Squitieri</maintainer>
+  <maintainer email="eferrentino@unisa.it">Enrico Ferrentino</maintainer>
 
   <license>BSD</license>
 
-  <author email="bennibeniamino@gmail.com">Beniamino Squitieri</author>
+  <url type="bugtracker">https://bitbucket.org/unisa-acg/unisa_acg_ros2/issues</url>
+  <url type="repository">https://bitbucket.org/unisa-acg/unisa_acg_ros2</url>
+
+  <author email="eferrentino@unisa.it">Enrico Ferrentino</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
